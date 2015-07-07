@@ -1,0 +1,24 @@
+timedautomaton F4a
+contr_var: x;
+synclabs: a,b;
+loc A: while true
+	when true sync a do {x'==0} goto B;
+loc B: while x<4
+	when true sync a do {x'==0} goto B;
+	when x>3 sync b goto A;
+initially: A;
+end
+
+timedautomaton F4b
+contr_var: y;
+synclabs: b,c;
+loc C: while true
+	when true sync b do {y'==0} goto D;
+loc D: while true
+	when true sync b do {y'==0} goto D;
+	when y>3 sync c goto C;
+initially: C;
+end
+
+//F4a.print;
+F4b.print;

@@ -1,0 +1,8 @@
+digraph hybridreach {
+ rankdir=LR;
+ size="8,5"
+0 [label="l0\nA >= 12\nA = -1",color=red, style=filled];
+1 [label="l1\n-A >= -100\nA = 2",color=red, style=filled];
+0 -> 1 [label="tau\nA = 12\ntrue"];
+1 -> 0 [label="tau\nA = 100\ntrue"];
+}

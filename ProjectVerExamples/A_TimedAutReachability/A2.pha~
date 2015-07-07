@@ -1,0 +1,33 @@
+timedautomaton A2
+contr_var: x;
+synclabs: a,b;
+loc s0: while x <= 4
+	when x<3 sync a goto s0;
+	when x<3 sync b goto s0;
+	when x==3 sync a goto s0; 
+initially: s0;
+end
+
+//A2.print;
+
+val:=true;
+myval:=s0 & val;
+//myval.print;
+
+
+autinst:=A2;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+
+
+seventh:=to_Region_Automata(autinst);
+//seventh.print;
+
+l:=is_reachable_by_dfs_fb(seventh,myval);
+
+//l:=is_reachable_by_bfs_fb(seventh,myval);
+
+
+
+l.print;

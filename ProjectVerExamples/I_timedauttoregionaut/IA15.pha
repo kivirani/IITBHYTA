@@ -1,0 +1,17 @@
+timedautomaton A15
+contr_var: x,y,z;
+synclabs: tau;
+loc s0: while true
+	when x>2 & y>2 & z>2 sync tau goto s1;
+loc s1: while true
+	when x>=3 & y>=3 & z<=3 sync tau do {x' == 0} goto s1;
+initially: s0;
+end
+
+//A15.print;
+
+a15inst:=A15;
+//a15inst.print;
+seventh:=to_Region_Automata(a15inst);
+
+seventh.print;

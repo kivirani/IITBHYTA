@@ -1,0 +1,21 @@
+timedautomaton A8
+contr_var: x;
+synclabs: a,b;
+loc s0: while true
+	when true sync a do {x' == 0} goto s1;
+loc s1: while true
+	when x<2 sync b goto s2;
+	when x>=2 sync b goto s0;
+loc s2: while true
+	when true sync a do {x' == 0} goto s1;
+initially: s0 & x==0;
+end
+
+
+//A8.print;
+
+a8inst:=A8;
+//a8inst.print;
+seventh:=to_Region_Automata(a8inst);
+
+seventh.print;

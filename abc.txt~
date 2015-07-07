@@ -1,0 +1,4546 @@
+
+Invariants:
+true
+
+Constraint:k > 1
+l:k r:1
+Constraint:k < 1
+
+Invariants:
+true
+
+
+Invariants:
+true
+
+Constraint:k > 2
+l:k r:2
+Constraint:k < 2
+
+Invariants:
+true
+
+Input:true
+Out:0 = 0
+Input:x <= 5
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 5
+
+Postfix contents are:1
+5
+
+Rahul
+Not in cntr_var
+5 gonna be converted into float
+
+5 is converted into float value 5
+ttmp:::::
+0 0 0 5 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:5
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 5
+
+Postfix contents are:1
+5
+
+Rahul
+Not in cntr_var
+5 gonna be converted into float
+
+5 is converted into float value 5
+ttmp:::::
+0 0 0 5 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:5
+Out:-B >= -5
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 1
+
+Postfix contents are:1
+1
+
+Rahul
+Not in cntr_var
+1 gonna be converted into float
+
+1 is converted into float value 1
+ttmp:::::
+0 0 0 1 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Input:true
+Out:0 = 0
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 1
+
+Postfix contents are:1
+1
+
+Rahul
+Not in cntr_var
+1 gonna be converted into float
+
+1 is converted into float value 1
+ttmp:::::
+0 0 0 1 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Input:true
+Out:0 = 0
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 1
+
+Postfix contents are:1
+1
+
+Rahul
+Not in cntr_var
+1 gonna be converted into float
+
+1 is converted into float value 1
+ttmp:::::
+0 0 0 1 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 10
+
+Postfix contents are:1
+10
+
+Rahul
+Not in cntr_var
+10 gonna be converted into float
+
+10 is converted into float value 10
+ttmp:::::
+0 0 0 10 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:10
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 1
+
+Postfix contents are:1
+1
+
+Rahul
+Not in cntr_var
+1 gonna be converted into float
+
+1 is converted into float value 1
+ttmp:::::
+0 0 0 1 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 10
+
+Postfix contents are:1
+10
+
+Rahul
+Not in cntr_var
+10 gonna be converted into float
+
+10 is converted into float value 10
+ttmp:::::
+0 0 0 10 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:10
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 1
+
+Postfix contents are:1
+1
+
+Rahul
+Not in cntr_var
+1 gonna be converted into float
+
+1 is converted into float value 1
+ttmp:::::
+0 0 0 1 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Got input as x 
+
+Postfix contents are:1
+x
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 1
+Is it 0
+Have a seat
+Returning linear expression:B
+Got input as 10
+
+Postfix contents are:1
+10
+
+Rahul
+Not in cntr_var
+10 gonna be converted into float
+
+10 is converted into float value 10
+ttmp:::::
+0 0 0 10 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:10
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 1
+
+Postfix contents are:1
+1
+
+Rahul
+Not in cntr_var
+1 gonna be converted into float
+
+1 is converted into float value 1
+ttmp:::::
+0 0 0 1 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Input:true
+Out:0 = 0
+Input:y <= 5
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 5
+
+Postfix contents are:1
+5
+
+Rahul
+Not in cntr_var
+5 gonna be converted into float
+
+5 is converted into float value 5
+ttmp:::::
+0 0 0 5 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:5
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 5
+
+Postfix contents are:1
+5
+
+Rahul
+Not in cntr_var
+5 gonna be converted into float
+
+5 is converted into float value 5
+ttmp:::::
+0 0 0 5 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:5
+Out:-C >= -5
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 1.1
+
+Postfix contents are:1
+1.1
+
+Rahul
+Not in cntr_var
+1.1 gonna be converted into float
+
+1.1 is converted into float value 1.10001
+ttmp:::::
+0 0 0 1.10001 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Input:true
+Out:0 = 0
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 1.1
+
+Postfix contents are:1
+1.1
+
+Rahul
+Not in cntr_var
+1.1 gonna be converted into float
+
+1.1 is converted into float value 1.10001
+ttmp:::::
+0 0 0 1.10001 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:1
+Input:true
+Out:0 = 0
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 2
+
+Postfix contents are:1
+2
+
+Rahul
+Not in cntr_var
+2 gonna be converted into float
+
+2 is converted into float value 2
+ttmp:::::
+0 0 0 2 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:2
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 10
+
+Postfix contents are:1
+10
+
+Rahul
+Not in cntr_var
+10 gonna be converted into float
+
+10 is converted into float value 10
+ttmp:::::
+0 0 0 10 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:10
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 2
+
+Postfix contents are:1
+2
+
+Rahul
+Not in cntr_var
+2 gonna be converted into float
+
+2 is converted into float value 2
+ttmp:::::
+0 0 0 2 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:2
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 10
+
+Postfix contents are:1
+10
+
+Rahul
+Not in cntr_var
+10 gonna be converted into float
+
+10 is converted into float value 10
+ttmp:::::
+0 0 0 10 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:10
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 2
+
+Postfix contents are:1
+2
+
+Rahul
+Not in cntr_var
+2 gonna be converted into float
+
+2 is converted into float value 2
+ttmp:::::
+0 0 0 2 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:2
+Got input as y 
+
+Postfix contents are:1
+y
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 0
+Is it 0
+Is it 1
+Have a seat
+Returning linear expression:C
+Got input as 10
+
+Postfix contents are:1
+10
+
+Rahul
+Not in cntr_var
+10 gonna be converted into float
+
+10 is converted into float value 10
+ttmp:::::
+0 0 0 10 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:10
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 2
+
+Postfix contents are:1
+2
+
+Rahul
+Not in cntr_var
+2 gonna be converted into float
+
+2 is converted into float value 2
+ttmp:::::
+0 0 0 2 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:2
+Got input as k 
+
+Postfix contents are:1
+k
+
+Rahul
+My god found loc
+My god found loc2
+My god found loc3
+My god found loc4
+Is it 1
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:A
+Got input as 0
+
+Postfix contents are:1
+0
+
+Rahul
+Not in cntr_var
+0 gonna be converted into float
+
+0 is converted into float value 0
+ttmp:::::
+0 0 0 0 
+Is it 0
+Is it 0
+Is it 0
+Have a seat
+Returning linear expression:0
+T2 pushing s1 s2 A = 0 B = 0 tau1
+T2 pushing A B A = 0 C = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+A B A = 0 C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~B
+Generated locations size:4
+s1~A,phi true true
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s2~B,tau1,tau2 -B >= -5, -C >= -5 A = 0, B = 0, C = 0
+s2~B,tau2 -B >= -5, -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, A = 0
+Generated update:B = 0, C = 0
+T3 pushed s1~A,phi s2~B,tau1,tau2 A = 0, A = 0 B = 0, C = 0 
+T3 pushed s2~B,tau1,tau2 s2~B,tau2 true true tau1
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+A B A = 0 C = 0 tau2
+s1 s2 A = 0 B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~B
+Generated locations size:4
+s1~A,phi true true
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s2~B,tau1,tau2 -B >= -5, -C >= -5 A = 0, B = 0, C = 0
+s2~B,tau1 -B >= -5, -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, A = 0
+Generated update:C = 0, B = 0
+T3 pushed s2~B,tau1,tau2 s2~B,tau1 true true tau2
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s2~A
+Generated locations size:3
+s1~A,phi true true
+s2~A,phi -B >= -5, A = 0 B = 1
+s2~A,tau1 -B >= -5, A = 0 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:B = 0
+T3 pushed s1~A,phi s2~A,tau1 A = 0 B = 0 
+T3 pushed s2~A,tau1 s2~A,phi true true tau1
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+A B A = 0 C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~B
+Generated locations size:3
+s1~A,phi true true
+s1~B,phi A = 0, -C >= -5 C = 1
+s1~B,tau2 A = 0, -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:C = 0
+T3 pushed s1~A,phi s1~B,tau2 A = 0 C = 0 
+T3 pushed s1~B,tau2 s1~B,phi true true tau2
+T2 pushing s2 s3 true A = 1, B = 0 tau1
+T2 pushing B C true A = 2, C = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+B C true A = 2, C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~C
+Generated locations size:4
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s3~C,phi true B = 1, C = 1
+s3~C,tau1,tau2 true A = 0, B = 0, C = 0
+s3~C,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 1, B = 0, A = 2, C = 0
+T3 pushed s2~B,phi s3~C,tau1,tau2 true A = 1, B = 0, A = 2, C = 0 
+T3 pushed s3~C,tau1,tau2 s3~C,tau2 true true tau1
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+B C true A = 2, C = 0 tau2
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~C
+Generated locations size:4
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s3~C,phi true B = 1, C = 1
+s3~C,tau1,tau2 true A = 0, B = 0, C = 0
+s3~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 2, C = 0, A = 1, B = 0
+T3 pushed s3~C,tau1,tau2 s3~C,tau1 true true tau2
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s3~B
+Generated locations size:3
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s3~B,phi -C >= -5 B = 1, C = 1
+s3~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 1, B = 0
+T3 pushed s2~B,phi s3~B,tau1 true A = 1, B = 0 
+T3 pushed s3~B,tau1 s3~B,phi true true tau1
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+B C true A = 2, C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~C
+Generated locations size:3
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s2~C,phi -B >= -5 B = 1, C = 1
+s2~C,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 2, C = 0
+T3 pushed s2~B,phi s2~C,tau2 true A = 2, C = 0 
+T3 pushed s2~C,tau2 s2~C,phi true true tau2
+T2 pushing s2 s3 true A = 1, B = 0 tau1
+T2 pushing A B A = 0 C = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+A B A = 0 C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~B
+Generated locations size:4
+s2~A,phi -B >= -5 B = 1
+s3~B,phi -C >= -5 B = 1, C = 1
+s3~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s3~B,tau2 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:A = 1, B = 0, C = 0
+T3 pushed s2~A,phi s3~B,tau1,tau2 A = 0 A = 1, B = 0, C = 0 
+T3 pushed s3~B,tau1,tau2 s3~B,tau2 true true tau1
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+A B A = 0 C = 0 tau2
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~B
+Generated locations size:4
+s2~A,phi -B >= -5 B = 1
+s3~B,phi -C >= -5 B = 1, C = 1
+s3~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s3~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:C = 0, A = 1, B = 0
+T3 pushed s3~B,tau1,tau2 s3~B,tau1 true true tau2
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s3~A
+Generated locations size:3
+s2~A,phi -B >= -5 B = 1
+s3~A,phi A = 0 B = 1
+s3~A,tau1 A = 0 A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 1, B = 0
+T3 pushed s2~A,phi s3~A,tau1 true A = 1, B = 0 
+T3 pushed s3~A,tau1 s3~A,phi true true tau1
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+A B A = 0 C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~B
+Generated locations size:3
+s2~A,phi -B >= -5 B = 1
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s2~B,tau2 -B >= -5, -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:C = 0
+T3 pushed s2~A,phi s2~B,tau2 A = 0 C = 0 
+T3 pushed s2~B,tau2 s2~B,phi true true tau2
+T2 pushing s1 s2 A = 0 B = 0 tau1
+T2 pushing B C true A = 2, C = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+B C true A = 2, C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~C
+Generated locations size:4
+s1~B,phi -C >= -5 C = 1
+s2~C,phi -B >= -5 B = 1, C = 1
+s2~C,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~C,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:B = 0, A = 2, C = 0
+T3 pushed s1~B,phi s2~C,tau1,tau2 A = 0 B = 0, A = 2, C = 0 
+T3 pushed s2~C,tau1,tau2 s2~C,tau2 true true tau1
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+B C true A = 2, C = 0 tau2
+s1 s2 A = 0 B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~C
+Generated locations size:4
+s1~B,phi -C >= -5 C = 1
+s2~C,phi -B >= -5 B = 1, C = 1
+s2~C,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~C,tau1 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:A = 2, C = 0, B = 0
+T3 pushed s2~C,tau1,tau2 s2~C,tau1 true true tau2
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s2~B
+Generated locations size:3
+s1~B,phi -C >= -5 C = 1
+s2~B,phi -B >= -5, -C >= -5 B = 1, C = 1
+s2~B,tau1 -B >= -5, -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:B = 0
+T3 pushed s1~B,phi s2~B,tau1 A = 0 B = 0 
+T3 pushed s2~B,tau1 s2~B,phi true true tau1
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+B C true A = 2, C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~C
+Generated locations size:3
+s1~B,phi -C >= -5 C = 1
+s1~C,phi A = 0 C = 1
+s1~C,tau2 A = 0 A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 2, C = 0
+T3 pushed s1~B,phi s1~C,tau2 true A = 2, C = 0 
+T3 pushed s1~C,tau2 s1~C,phi true true tau2
+T2 pushing s3 s1 B >= 10, A > 1 true tau1
+T2 pushing s3 s1 B >= 10, -A > -1 true tau1
+T2 pushing s3 s4 B >= 10, A = 1 true tau1
+T2 pushing C A C >= 10, A > 2 true tau2
+T2 pushing C A C >= 10, -A > -2 true tau2
+T2 pushing C D C >= 10, A = 2 true tau2
+Prevelist size:6
+Newelist size:6
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+C A C >= 10, A > 2 true tau2
+
+s3 s1 B >= 10, A > 1 true tau1
+C A C >= 10, -A > -2 true tau2
+
+s3 s1 B >= 10, A > 1 true tau1
+C D C >= 10, A = 2 true tau2
+
+s3 s1 B >= 10, -A > -1 true tau1
+C A C >= 10, A > 2 true tau2
+
+s3 s1 B >= 10, -A > -1 true tau1
+C A C >= 10, -A > -2 true tau2
+
+s3 s1 B >= 10, -A > -1 true tau1
+C D C >= 10, A = 2 true tau2
+
+s3 s4 B >= 10, A = 1 true tau1
+C A C >= 10, A > 2 true tau2
+
+s3 s4 B >= 10, A = 1 true tau1
+C A C >= 10, -A > -2 true tau2
+
+s3 s4 B >= 10, A = 1 true tau1
+C D C >= 10, A = 2 true tau2
+
+Return size:9
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1, C >= 10, A > 2
+Generated update:true
+T3 pushed s3~C,phi s1~A,tau1,tau2 B >= 10, A > 1, C >= 10, A > 2 true 
+T3 pushed s1~A,tau1,tau2 s1~A,tau2 true true tau1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1, C >= 10, -A > -2
+Generated update:true
+T3 pushed s3~C,phi s1~A,tau1,tau2 B >= 10, A > 1, C >= 10, -A > -2 true 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~D
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~D,phi true true
+s1~D,tau1,tau2 true A = 0, B = 0, C = 0
+s1~D,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1, C >= 10, A = 2
+Generated update:true
+T3 pushed s3~C,phi s1~D,tau1,tau2 B >= 10, A > 1, C >= 10, A = 2 true 
+T3 pushed s1~D,tau1,tau2 s1~D,tau2 true true tau1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1, C >= 10, A > 2
+Generated update:true
+T3 pushed s3~C,phi s1~A,tau1,tau2 B >= 10, -A > -1, C >= 10, A > 2 true 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1, C >= 10, -A > -2
+Generated update:true
+T3 pushed s3~C,phi s1~A,tau1,tau2 B >= 10, -A > -1, C >= 10, -A > -2 true 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~D
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~D,phi true true
+s1~D,tau1,tau2 true A = 0, B = 0, C = 0
+s1~D,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1, C >= 10, A = 2
+Generated update:true
+T3 pushed s3~C,phi s1~D,tau1,tau2 B >= 10, -A > -1, C >= 10, A = 2 true 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s4~A,phi true true
+s4~A,tau1,tau2 true A = 0, B = 0, C = 0
+s4~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1, C >= 10, A > 2
+Generated update:true
+T3 pushed s3~C,phi s4~A,tau1,tau2 B >= 10, A = 1, C >= 10, A > 2 true 
+T3 pushed s4~A,tau1,tau2 s4~A,tau2 true true tau1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s4~A,phi true true
+s4~A,tau1,tau2 true A = 0, B = 0, C = 0
+s4~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1, C >= 10, -A > -2
+Generated update:true
+T3 pushed s3~C,phi s4~A,tau1,tau2 B >= 10, A = 1, C >= 10, -A > -2 true 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~D
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s4~D,phi true true
+s4~D,tau1,tau2 true A = 0, B = 0, C = 0
+s4~D,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1, C >= 10, A = 2
+Generated update:true
+T3 pushed s3~C,phi s4~D,tau1,tau2 B >= 10, A = 1, C >= 10, A = 2 true 
+T3 pushed s4~D,tau1,tau2 s4~D,tau2 true true tau1
+Prevelist size:6
+Newelist size:6
+Seq:
+tau2 tau1 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+C A C >= 10, A > 2 true tau2
+s3 s1 B >= 10, A > 1 true tau1
+
+C A C >= 10, A > 2 true tau2
+s3 s1 B >= 10, -A > -1 true tau1
+
+C A C >= 10, A > 2 true tau2
+s3 s4 B >= 10, A = 1 true tau1
+
+C A C >= 10, -A > -2 true tau2
+s3 s1 B >= 10, A > 1 true tau1
+
+C A C >= 10, -A > -2 true tau2
+s3 s1 B >= 10, -A > -1 true tau1
+
+C A C >= 10, -A > -2 true tau2
+s3 s4 B >= 10, A = 1 true tau1
+
+C D C >= 10, A = 2 true tau2
+s3 s1 B >= 10, A > 1 true tau1
+
+C D C >= 10, A = 2 true tau2
+s3 s1 B >= 10, -A > -1 true tau1
+
+C D C >= 10, A = 2 true tau2
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:9
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2, B >= 10, A > 1
+Generated update:true
+T3 pushed s1~A,tau1,tau2 s1~A,tau1 true true tau2
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2, B >= 10, -A > -1
+Generated update:true
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s4~A,phi true true
+s4~A,tau1,tau2 true A = 0, B = 0, C = 0
+s4~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2, B >= 10, A = 1
+Generated update:true
+T3 pushed s4~A,tau1,tau2 s4~A,tau1 true true tau2
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2, B >= 10, A > 1
+Generated update:true
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2, B >= 10, -A > -1
+Generated update:true
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s4~A,phi true true
+s4~A,tau1,tau2 true A = 0, B = 0, C = 0
+s4~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2, B >= 10, A = 1
+Generated update:true
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~D
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~D,phi true true
+s1~D,tau1,tau2 true A = 0, B = 0, C = 0
+s1~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2, B >= 10, A > 1
+Generated update:true
+T3 pushed s1~D,tau1,tau2 s1~D,tau1 true true tau2
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~D
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s1~D,phi true true
+s1~D,tau1,tau2 true A = 0, B = 0, C = 0
+s1~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2, B >= 10, -A > -1
+Generated update:true
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~D
+Generated locations size:4
+s3~C,phi true B = 1, C = 1
+s4~D,phi true true
+s4~D,tau1,tau2 true A = 0, B = 0, C = 0
+s4~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2, B >= 10, A = 1
+Generated update:true
+T3 pushed s4~D,tau1,tau2 s4~D,tau1 true true tau2
+Prevelist size:6
+Newelist size:3
+Seq:
+tau1 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+
+s3 s1 B >= 10, -A > -1 true tau1
+
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Generated post:s1~C
+Generated locations size:3
+s3~C,phi true B = 1, C = 1
+s1~C,phi true C = 1
+s1~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:true
+T3 pushed s3~C,phi s1~C,tau1 B >= 10, A > 1 true 
+T3 pushed s1~C,tau1 s1~C,phi true true tau1
+Map:s1 s2 s3 s4 
+Generated post:s1~C
+Generated locations size:3
+s3~C,phi true B = 1, C = 1
+s1~C,phi true C = 1
+s1~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:true
+T3 pushed s3~C,phi s1~C,tau1 B >= 10, -A > -1 true 
+Map:s1 s2 s3 s4 
+Generated post:s4~C
+Generated locations size:3
+s3~C,phi true B = 1, C = 1
+s4~C,phi true C = 1
+s4~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:true
+T3 pushed s3~C,phi s4~C,tau1 B >= 10, A = 1 true 
+T3 pushed s4~C,tau1 s4~C,phi true true tau1
+Prevelist size:6
+Newelist size:3
+Seq:
+tau2 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+C A C >= 10, A > 2 true tau2
+
+C A C >= 10, -A > -2 true tau2
+
+C D C >= 10, A = 2 true tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:3
+s3~C,phi true B = 1, C = 1
+s3~A,phi true B = 1
+s3~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:true
+T3 pushed s3~C,phi s3~A,tau2 C >= 10, A > 2 true 
+T3 pushed s3~A,tau2 s3~A,phi true true tau2
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:3
+s3~C,phi true B = 1, C = 1
+s3~A,phi true B = 1
+s3~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:true
+T3 pushed s3~C,phi s3~A,tau2 C >= 10, -A > -2 true 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~D
+Generated locations size:3
+s3~C,phi true B = 1, C = 1
+s3~D,phi true B = 1
+s3~D,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:true
+T3 pushed s3~C,phi s3~D,tau2 C >= 10, A = 2 true 
+T3 pushed s3~D,tau2 s3~D,phi true true tau2
+T2 pushing s3 s1 B >= 10, A > 1 true tau1
+T2 pushing s3 s1 B >= 10, -A > -1 true tau1
+T2 pushing s3 s4 B >= 10, A = 1 true tau1
+T2 pushing B C true A = 2, C = 0 tau2
+Prevelist size:4
+Newelist size:4
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+B C true A = 2, C = 0 tau2
+
+s3 s1 B >= 10, -A > -1 true tau1
+B C true A = 2, C = 0 tau2
+
+s3 s4 B >= 10, A = 1 true tau1
+B C true A = 2, C = 0 tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~C
+Generated locations size:4
+s3~B,phi -C >= -5 B = 1, C = 1
+s1~C,phi true C = 1
+s1~C,tau1,tau2 true A = 0, B = 0, C = 0
+s1~C,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:A = 2, C = 0
+T3 pushed s3~B,phi s1~C,tau1,tau2 B >= 10, A > 1 A = 2, C = 0 
+T3 pushed s1~C,tau1,tau2 s1~C,tau2 true true tau1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~C
+Generated locations size:4
+s3~B,phi -C >= -5 B = 1, C = 1
+s1~C,phi true C = 1
+s1~C,tau1,tau2 true A = 0, B = 0, C = 0
+s1~C,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:A = 2, C = 0
+T3 pushed s3~B,phi s1~C,tau1,tau2 B >= 10, -A > -1 A = 2, C = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~C
+Generated locations size:4
+s3~B,phi -C >= -5 B = 1, C = 1
+s4~C,phi true C = 1
+s4~C,tau1,tau2 true A = 0, B = 0, C = 0
+s4~C,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:A = 2, C = 0
+T3 pushed s3~B,phi s4~C,tau1,tau2 B >= 10, A = 1 A = 2, C = 0 
+T3 pushed s4~C,tau1,tau2 s4~C,tau2 true true tau1
+Prevelist size:4
+Newelist size:4
+Seq:
+tau2 tau1 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+B C true A = 2, C = 0 tau2
+s3 s1 B >= 10, A > 1 true tau1
+
+B C true A = 2, C = 0 tau2
+s3 s1 B >= 10, -A > -1 true tau1
+
+B C true A = 2, C = 0 tau2
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~C
+Generated locations size:4
+s3~B,phi -C >= -5 B = 1, C = 1
+s1~C,phi true C = 1
+s1~C,tau1,tau2 true A = 0, B = 0, C = 0
+s1~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:A = 2, C = 0
+T3 pushed s1~C,tau1,tau2 s1~C,tau1 true true tau2
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~C
+Generated locations size:4
+s3~B,phi -C >= -5 B = 1, C = 1
+s1~C,phi true C = 1
+s1~C,tau1,tau2 true A = 0, B = 0, C = 0
+s1~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:A = 2, C = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~C
+Generated locations size:4
+s3~B,phi -C >= -5 B = 1, C = 1
+s4~C,phi true C = 1
+s4~C,tau1,tau2 true A = 0, B = 0, C = 0
+s4~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:A = 2, C = 0
+T3 pushed s4~C,tau1,tau2 s4~C,tau1 true true tau2
+Prevelist size:4
+Newelist size:3
+Seq:
+tau1 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+
+s3 s1 B >= 10, -A > -1 true tau1
+
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Generated post:s1~B
+Generated locations size:3
+s3~B,phi -C >= -5 B = 1, C = 1
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:true
+T3 pushed s3~B,phi s1~B,tau1 B >= 10, A > 1 true 
+T3 pushed s1~B,tau1 s1~B,phi true true tau1
+Map:s1 s2 s3 s4 
+Generated post:s1~B
+Generated locations size:3
+s3~B,phi -C >= -5 B = 1, C = 1
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:true
+T3 pushed s3~B,phi s1~B,tau1 B >= 10, -A > -1 true 
+Map:s1 s2 s3 s4 
+Generated post:s4~B
+Generated locations size:3
+s3~B,phi -C >= -5 B = 1, C = 1
+s4~B,phi -C >= -5 C = 1
+s4~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:true
+T3 pushed s3~B,phi s4~B,tau1 B >= 10, A = 1 true 
+T3 pushed s4~B,tau1 s4~B,phi true true tau1
+Prevelist size:4
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+B C true A = 2, C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~C
+Generated locations size:3
+s3~B,phi -C >= -5 B = 1, C = 1
+s3~C,phi true B = 1, C = 1
+s3~C,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 2, C = 0
+T3 pushed s3~B,phi s3~C,tau2 true A = 2, C = 0 
+T3 pushed s3~C,tau2 s3~C,phi true true tau2
+T2 pushing s2 s3 true A = 1, B = 0 tau1
+T2 pushing C A C >= 10, A > 2 true tau2
+T2 pushing C A C >= 10, -A > -2 true tau2
+T2 pushing C D C >= 10, A = 2 true tau2
+Prevelist size:4
+Newelist size:4
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+C A C >= 10, A > 2 true tau2
+
+s2 s3 true A = 1, B = 0 tau1
+C A C >= 10, -A > -2 true tau2
+
+s2 s3 true A = 1, B = 0 tau1
+C D C >= 10, A = 2 true tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:4
+s2~C,phi -B >= -5 B = 1, C = 1
+s3~A,phi true B = 1
+s3~A,tau1,tau2 true A = 0, B = 0, C = 0
+s3~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:A = 1, B = 0
+T3 pushed s2~C,phi s3~A,tau1,tau2 C >= 10, A > 2 A = 1, B = 0 
+T3 pushed s3~A,tau1,tau2 s3~A,tau2 true true tau1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:4
+s2~C,phi -B >= -5 B = 1, C = 1
+s3~A,phi true B = 1
+s3~A,tau1,tau2 true A = 0, B = 0, C = 0
+s3~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:A = 1, B = 0
+T3 pushed s2~C,phi s3~A,tau1,tau2 C >= 10, -A > -2 A = 1, B = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~D
+Generated locations size:4
+s2~C,phi -B >= -5 B = 1, C = 1
+s3~D,phi true B = 1
+s3~D,tau1,tau2 true A = 0, B = 0, C = 0
+s3~D,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:A = 1, B = 0
+T3 pushed s2~C,phi s3~D,tau1,tau2 C >= 10, A = 2 A = 1, B = 0 
+T3 pushed s3~D,tau1,tau2 s3~D,tau2 true true tau1
+Prevelist size:4
+Newelist size:4
+Seq:
+tau2 tau1 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+C A C >= 10, A > 2 true tau2
+s2 s3 true A = 1, B = 0 tau1
+
+C A C >= 10, -A > -2 true tau2
+s2 s3 true A = 1, B = 0 tau1
+
+C D C >= 10, A = 2 true tau2
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:4
+s2~C,phi -B >= -5 B = 1, C = 1
+s3~A,phi true B = 1
+s3~A,tau1,tau2 true A = 0, B = 0, C = 0
+s3~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:A = 1, B = 0
+T3 pushed s3~A,tau1,tau2 s3~A,tau1 true true tau2
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:4
+s2~C,phi -B >= -5 B = 1, C = 1
+s3~A,phi true B = 1
+s3~A,tau1,tau2 true A = 0, B = 0, C = 0
+s3~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:A = 1, B = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~D
+Generated locations size:4
+s2~C,phi -B >= -5 B = 1, C = 1
+s3~D,phi true B = 1
+s3~D,tau1,tau2 true A = 0, B = 0, C = 0
+s3~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:A = 1, B = 0
+T3 pushed s3~D,tau1,tau2 s3~D,tau1 true true tau2
+Prevelist size:4
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s3~C
+Generated locations size:3
+s2~C,phi -B >= -5 B = 1, C = 1
+s3~C,phi true B = 1, C = 1
+s3~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 1, B = 0
+T3 pushed s2~C,phi s3~C,tau1 true A = 1, B = 0 
+T3 pushed s3~C,tau1 s3~C,phi true true tau1
+Prevelist size:4
+Newelist size:3
+Seq:
+tau2 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+C A C >= 10, A > 2 true tau2
+
+C A C >= 10, -A > -2 true tau2
+
+C D C >= 10, A = 2 true tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:3
+s2~C,phi -B >= -5 B = 1, C = 1
+s2~A,phi -B >= -5 B = 1
+s2~A,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:true
+T3 pushed s2~C,phi s2~A,tau2 C >= 10, A > 2 true 
+T3 pushed s2~A,tau2 s2~A,phi true true tau2
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:3
+s2~C,phi -B >= -5 B = 1, C = 1
+s2~A,phi -B >= -5 B = 1
+s2~A,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:true
+T3 pushed s2~C,phi s2~A,tau2 C >= 10, -A > -2 true 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~D
+Generated locations size:3
+s2~C,phi -B >= -5 B = 1, C = 1
+s2~D,phi -B >= -5 B = 1
+s2~D,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:true
+T3 pushed s2~C,phi s2~D,tau2 C >= 10, A = 2 true 
+T3 pushed s2~D,tau2 s2~D,phi true true tau2
+T2 pushing s3 s1 B >= 10, A > 1 true tau1
+T2 pushing s3 s1 B >= 10, -A > -1 true tau1
+T2 pushing s3 s4 B >= 10, A = 1 true tau1
+T2 pushing A B A = 0 C = 0 tau2
+Prevelist size:4
+Newelist size:4
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+A B A = 0 C = 0 tau2
+
+s3 s1 B >= 10, -A > -1 true tau1
+A B A = 0 C = 0 tau2
+
+s3 s4 B >= 10, A = 1 true tau1
+A B A = 0 C = 0 tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~B
+Generated locations size:4
+s3~A,phi true B = 1
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s1~B,tau2 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1, A = 0
+Generated update:C = 0
+T3 pushed s3~A,phi s1~B,tau1,tau2 B >= 10, A > 1, A = 0 C = 0 
+T3 pushed s1~B,tau1,tau2 s1~B,tau2 true true tau1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~B
+Generated locations size:4
+s3~A,phi true B = 1
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s1~B,tau2 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1, A = 0
+Generated update:C = 0
+T3 pushed s3~A,phi s1~B,tau1,tau2 B >= 10, -A > -1, A = 0 C = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~B
+Generated locations size:4
+s3~A,phi true B = 1
+s4~B,phi -C >= -5 C = 1
+s4~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s4~B,tau2 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1, A = 0
+Generated update:C = 0
+T3 pushed s3~A,phi s4~B,tau1,tau2 B >= 10, A = 1, A = 0 C = 0 
+T3 pushed s4~B,tau1,tau2 s4~B,tau2 true true tau1
+Prevelist size:4
+Newelist size:4
+Seq:
+tau2 tau1 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+A B A = 0 C = 0 tau2
+s3 s1 B >= 10, A > 1 true tau1
+
+A B A = 0 C = 0 tau2
+s3 s1 B >= 10, -A > -1 true tau1
+
+A B A = 0 C = 0 tau2
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~B
+Generated locations size:4
+s3~A,phi true B = 1
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s1~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, B >= 10, A > 1
+Generated update:C = 0
+T3 pushed s1~B,tau1,tau2 s1~B,tau1 true true tau2
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~B
+Generated locations size:4
+s3~A,phi true B = 1
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s1~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, B >= 10, -A > -1
+Generated update:C = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~B
+Generated locations size:4
+s3~A,phi true B = 1
+s4~B,phi -C >= -5 C = 1
+s4~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s4~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, B >= 10, A = 1
+Generated update:C = 0
+T3 pushed s4~B,tau1,tau2 s4~B,tau1 true true tau2
+Prevelist size:4
+Newelist size:3
+Seq:
+tau1 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+
+s3 s1 B >= 10, -A > -1 true tau1
+
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Generated post:s1~A
+Generated locations size:3
+s3~A,phi true B = 1
+s1~A,phi A = 0 true
+s1~A,tau1 A = 0 A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:true
+T3 pushed s3~A,phi s1~A,tau1 B >= 10, A > 1 true 
+T3 pushed s1~A,tau1 s1~A,phi true true tau1
+Map:s1 s2 s3 s4 
+Generated post:s1~A
+Generated locations size:3
+s3~A,phi true B = 1
+s1~A,phi A = 0 true
+s1~A,tau1 A = 0 A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:true
+T3 pushed s3~A,phi s1~A,tau1 B >= 10, -A > -1 true 
+Map:s1 s2 s3 s4 
+Generated post:s4~A
+Generated locations size:3
+s3~A,phi true B = 1
+s4~A,phi A = 0 true
+s4~A,tau1 A = 0 A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:true
+T3 pushed s3~A,phi s4~A,tau1 B >= 10, A = 1 true 
+T3 pushed s4~A,tau1 s4~A,phi true true tau1
+Prevelist size:4
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+A B A = 0 C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~B
+Generated locations size:3
+s3~A,phi true B = 1
+s3~B,phi -C >= -5 B = 1, C = 1
+s3~B,tau2 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:C = 0
+T3 pushed s3~A,phi s3~B,tau2 A = 0 C = 0 
+T3 pushed s3~B,tau2 s3~B,phi true true tau2
+T2 pushing s1 s2 A = 0 B = 0 tau1
+T2 pushing C A C >= 10, A > 2 true tau2
+T2 pushing C A C >= 10, -A > -2 true tau2
+T2 pushing C D C >= 10, A = 2 true tau2
+Prevelist size:4
+Newelist size:4
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+C A C >= 10, A > 2 true tau2
+
+s1 s2 A = 0 B = 0 tau1
+C A C >= 10, -A > -2 true tau2
+
+s1 s2 A = 0 B = 0 tau1
+C D C >= 10, A = 2 true tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:4
+s1~C,phi true C = 1
+s2~A,phi -B >= -5 B = 1
+s2~A,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~A,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, C >= 10, A > 2
+Generated update:B = 0
+T3 pushed s1~C,phi s2~A,tau1,tau2 A = 0, C >= 10, A > 2 B = 0 
+T3 pushed s2~A,tau1,tau2 s2~A,tau2 true true tau1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:4
+s1~C,phi true C = 1
+s2~A,phi -B >= -5 B = 1
+s2~A,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~A,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, C >= 10, -A > -2
+Generated update:B = 0
+T3 pushed s1~C,phi s2~A,tau1,tau2 A = 0, C >= 10, -A > -2 B = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~D
+Generated locations size:4
+s1~C,phi true C = 1
+s2~D,phi -B >= -5 B = 1
+s2~D,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~D,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0, C >= 10, A = 2
+Generated update:B = 0
+T3 pushed s1~C,phi s2~D,tau1,tau2 A = 0, C >= 10, A = 2 B = 0 
+T3 pushed s2~D,tau1,tau2 s2~D,tau2 true true tau1
+Prevelist size:4
+Newelist size:4
+Seq:
+tau2 tau1 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+C A C >= 10, A > 2 true tau2
+s1 s2 A = 0 B = 0 tau1
+
+C A C >= 10, -A > -2 true tau2
+s1 s2 A = 0 B = 0 tau1
+
+C D C >= 10, A = 2 true tau2
+s1 s2 A = 0 B = 0 tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:4
+s1~C,phi true C = 1
+s2~A,phi -B >= -5 B = 1
+s2~A,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~A,tau1 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2, A = 0
+Generated update:B = 0
+T3 pushed s2~A,tau1,tau2 s2~A,tau1 true true tau2
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:4
+s1~C,phi true C = 1
+s2~A,phi -B >= -5 B = 1
+s2~A,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~A,tau1 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2, A = 0
+Generated update:B = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~D
+Generated locations size:4
+s1~C,phi true C = 1
+s2~D,phi -B >= -5 B = 1
+s2~D,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~D,tau1 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2, A = 0
+Generated update:B = 0
+T3 pushed s2~D,tau1,tau2 s2~D,tau1 true true tau2
+Prevelist size:4
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s2~C
+Generated locations size:3
+s1~C,phi true C = 1
+s2~C,phi -B >= -5 B = 1, C = 1
+s2~C,tau1 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:B = 0
+T3 pushed s1~C,phi s2~C,tau1 A = 0 B = 0 
+T3 pushed s2~C,tau1 s2~C,phi true true tau1
+Prevelist size:4
+Newelist size:3
+Seq:
+tau2 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+C A C >= 10, A > 2 true tau2
+
+C A C >= 10, -A > -2 true tau2
+
+C D C >= 10, A = 2 true tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:3
+s1~C,phi true C = 1
+s1~A,phi A = 0 true
+s1~A,tau2 A = 0 A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:true
+T3 pushed s1~C,phi s1~A,tau2 C >= 10, A > 2 true 
+T3 pushed s1~A,tau2 s1~A,phi true true tau2
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:3
+s1~C,phi true C = 1
+s1~A,phi A = 0 true
+s1~A,tau2 A = 0 A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:true
+T3 pushed s1~C,phi s1~A,tau2 C >= 10, -A > -2 true 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~D
+Generated locations size:3
+s1~C,phi true C = 1
+s1~D,phi A = 0 true
+s1~D,tau2 A = 0 A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:true
+T3 pushed s1~C,phi s1~D,tau2 C >= 10, A = 2 true 
+T3 pushed s1~D,tau2 s1~D,phi true true tau2
+T2 pushing s1 s2 A = 0 B = 0 tau1
+T2 pushing D A true A = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+D A true A = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:4
+s1~D,phi true true
+s2~A,phi -B >= -5 B = 1
+s2~A,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~A,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:B = 0, A = 0
+T3 pushed s1~D,phi s2~A,tau1,tau2 A = 0 B = 0, A = 0 
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+D A true A = 0 tau2
+s1 s2 A = 0 B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:4
+s1~D,phi true true
+s2~A,phi -B >= -5 B = 1
+s2~A,tau1,tau2 -B >= -5 A = 0, B = 0, C = 0
+s2~A,tau1 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:A = 0, B = 0
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s1 s2 A = 0 B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s1 s2 A = 0 B = 0 tau1
+
+Pushing edgestack to ret:
+s1 s2 A = 0 B = 0 tau1
+
+Return:
+s1 s2 A = 0 B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s2~D
+Generated locations size:3
+s1~D,phi true true
+s2~D,phi -B >= -5 B = 1
+s2~D,tau1 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:B = 0
+T3 pushed s1~D,phi s2~D,tau1 A = 0 B = 0 
+T3 pushed s2~D,tau1 s2~D,phi true true tau1
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+D A true A = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:3
+s1~D,phi true true
+s1~A,phi true true
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s1~D,phi s1~A,tau2 true A = 0 
+T2 pushing s4 s1 true A = 0 tau1
+T2 pushing A B A = 0 C = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+s4 s1 true A = 0 tau1
+A B A = 0 C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~B
+Generated locations size:4
+s4~A,phi true true
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s1~B,tau2 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:A = 0, C = 0
+T3 pushed s4~A,phi s1~B,tau1,tau2 A = 0 A = 0, C = 0 
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+A B A = 0 C = 0 tau2
+s4 s1 true A = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~B
+Generated locations size:4
+s4~A,phi true true
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1,tau2 -C >= -5 A = 0, B = 0, C = 0
+s1~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:C = 0, A = 0
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+s4 s1 true A = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s1~A
+Generated locations size:3
+s4~A,phi true true
+s1~A,phi true true
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s4~A,phi s1~A,tau1 true A = 0 
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+A B A = 0 C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+A B A = 0 C = 0 tau2
+
+Pushing edgestack to ret:
+A B A = 0 C = 0 tau2
+
+Return:
+A B A = 0 C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~B
+Generated locations size:3
+s4~A,phi true true
+s4~B,phi -C >= -5 C = 1
+s4~B,tau2 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:A = 0
+Generated update:C = 0
+T3 pushed s4~A,phi s4~B,tau2 A = 0 C = 0 
+T3 pushed s4~B,tau2 s4~B,phi true true tau2
+T2 pushing s4 s1 true A = 0 tau1
+T2 pushing D A true A = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+s4 s1 true A = 0 tau1
+D A true A = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s4~D,phi true true
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0, A = 0
+T3 pushed s4~D,phi s1~A,tau1,tau2 true A = 0, A = 0 
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+D A true A = 0 tau2
+s4 s1 true A = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s4~D,phi true true
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0, A = 0
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+s4 s1 true A = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s1~D
+Generated locations size:3
+s4~D,phi true true
+s1~D,phi true true
+s1~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s4~D,phi s1~D,tau1 true A = 0 
+T3 pushed s1~D,tau1 s1~D,phi true true tau1
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+D A true A = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:3
+s4~D,phi true true
+s4~A,phi true true
+s4~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s4~D,phi s4~A,tau2 true A = 0 
+T3 pushed s4~A,tau2 s4~A,phi true true tau2
+T2 pushing s4 s1 true A = 0 tau1
+T2 pushing C A C >= 10, A > 2 true tau2
+T2 pushing C A C >= 10, -A > -2 true tau2
+T2 pushing C D C >= 10, A = 2 true tau2
+Prevelist size:4
+Newelist size:4
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+s4 s1 true A = 0 tau1
+C A C >= 10, A > 2 true tau2
+
+s4 s1 true A = 0 tau1
+C A C >= 10, -A > -2 true tau2
+
+s4 s1 true A = 0 tau1
+C D C >= 10, A = 2 true tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s4~C,phi true C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:A = 0
+T3 pushed s4~C,phi s1~A,tau1,tau2 C >= 10, A > 2 A = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s4~C,phi true C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:A = 0
+T3 pushed s4~C,phi s1~A,tau1,tau2 C >= 10, -A > -2 A = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~D
+Generated locations size:4
+s4~C,phi true C = 1
+s1~D,phi true true
+s1~D,tau1,tau2 true A = 0, B = 0, C = 0
+s1~D,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:A = 0
+T3 pushed s4~C,phi s1~D,tau1,tau2 C >= 10, A = 2 A = 0 
+Prevelist size:4
+Newelist size:4
+Seq:
+tau2 tau1 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+C A C >= 10, A > 2 true tau2
+s4 s1 true A = 0 tau1
+
+C A C >= 10, -A > -2 true tau2
+s4 s1 true A = 0 tau1
+
+C D C >= 10, A = 2 true tau2
+s4 s1 true A = 0 tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s4~C,phi true C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:A = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s4~C,phi true C = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:A = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~D
+Generated locations size:4
+s4~C,phi true C = 1
+s1~D,phi true true
+s1~D,tau1,tau2 true A = 0, B = 0, C = 0
+s1~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:A = 0
+Prevelist size:4
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+s4 s1 true A = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s1~C
+Generated locations size:3
+s4~C,phi true C = 1
+s1~C,phi true C = 1
+s1~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s4~C,phi s1~C,tau1 true A = 0 
+Prevelist size:4
+Newelist size:3
+Seq:
+tau2 
+Aggregated on seq:
+C A C >= 10, A > 2 true tau2	
+C A C >= 10, -A > -2 true tau2	
+C D C >= 10, A = 2 true tau2	
+
+Sizzzzze:1
+Inputtttt:
+C A C >= 10, A > 2 true tau2
+C A C >= 10, -A > -2 true tau2
+C D C >= 10, A = 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, A > 2 true tau2
+
+Pushing edgestack to ret:
+C A C >= 10, -A > -2 true tau2
+
+Pushing edgestack to ret:
+C D C >= 10, A = 2 true tau2
+
+Return:
+C A C >= 10, A > 2 true tau2
+
+C A C >= 10, -A > -2 true tau2
+
+C D C >= 10, A = 2 true tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:3
+s4~C,phi true C = 1
+s4~A,phi true true
+s4~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A > 2
+Generated update:true
+T3 pushed s4~C,phi s4~A,tau2 C >= 10, A > 2 true 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:3
+s4~C,phi true C = 1
+s4~A,phi true true
+s4~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, -A > -2
+Generated update:true
+T3 pushed s4~C,phi s4~A,tau2 C >= 10, -A > -2 true 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~D
+Generated locations size:3
+s4~C,phi true C = 1
+s4~D,phi true true
+s4~D,tau2 true A = 0, B = 0, C = 0
+Generated guard:C >= 10, A = 2
+Generated update:true
+T3 pushed s4~C,phi s4~D,tau2 C >= 10, A = 2 true 
+T3 pushed s4~D,tau2 s4~D,phi true true tau2
+T2 pushing s3 s1 B >= 10, A > 1 true tau1
+T2 pushing s3 s1 B >= 10, -A > -1 true tau1
+T2 pushing s3 s4 B >= 10, A = 1 true tau1
+T2 pushing D A true A = 0 tau2
+Prevelist size:4
+Newelist size:4
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+D A true A = 0 tau2
+
+s3 s1 B >= 10, -A > -1 true tau1
+D A true A = 0 tau2
+
+s3 s4 B >= 10, A = 1 true tau1
+D A true A = 0 tau2
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~D,phi true B = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:A = 0
+T3 pushed s3~D,phi s1~A,tau1,tau2 B >= 10, A > 1 A = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~D,phi true B = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:A = 0
+T3 pushed s3~D,phi s1~A,tau1,tau2 B >= 10, -A > -1 A = 0 
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:4
+s3~D,phi true B = 1
+s4~A,phi true true
+s4~A,tau1,tau2 true A = 0, B = 0, C = 0
+s4~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:A = 0
+T3 pushed s3~D,phi s4~A,tau1,tau2 B >= 10, A = 1 A = 0 
+Prevelist size:4
+Newelist size:4
+Seq:
+tau2 tau1 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+D A true A = 0 tau2
+s3 s1 B >= 10, A > 1 true tau1
+
+D A true A = 0 tau2
+s3 s1 B >= 10, -A > -1 true tau1
+
+D A true A = 0 tau2
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~D,phi true B = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:A = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~A
+Generated locations size:4
+s3~D,phi true B = 1
+s1~A,phi true true
+s1~A,tau1,tau2 true A = 0, B = 0, C = 0
+s1~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:A = 0
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~A
+Generated locations size:4
+s3~D,phi true B = 1
+s4~A,phi true true
+s4~A,tau1,tau2 true A = 0, B = 0, C = 0
+s4~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:A = 0
+Prevelist size:4
+Newelist size:3
+Seq:
+tau1 
+Aggregated on seq:
+s3 s1 B >= 10, A > 1 true tau1	
+s3 s1 B >= 10, -A > -1 true tau1	
+s3 s4 B >= 10, A = 1 true tau1	
+
+Sizzzzze:1
+Inputtttt:
+s3 s1 B >= 10, A > 1 true tau1
+s3 s1 B >= 10, -A > -1 true tau1
+s3 s4 B >= 10, A = 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, A > 1 true tau1
+
+Pushing edgestack to ret:
+s3 s1 B >= 10, -A > -1 true tau1
+
+Pushing edgestack to ret:
+s3 s4 B >= 10, A = 1 true tau1
+
+Return:
+s3 s1 B >= 10, A > 1 true tau1
+
+s3 s1 B >= 10, -A > -1 true tau1
+
+s3 s4 B >= 10, A = 1 true tau1
+
+Return size:3
+Map:s1 s2 s3 s4 
+Generated post:s1~D
+Generated locations size:3
+s3~D,phi true B = 1
+s1~D,phi true true
+s1~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A > 1
+Generated update:true
+T3 pushed s3~D,phi s1~D,tau1 B >= 10, A > 1 true 
+Map:s1 s2 s3 s4 
+Generated post:s1~D
+Generated locations size:3
+s3~D,phi true B = 1
+s1~D,phi true true
+s1~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, -A > -1
+Generated update:true
+T3 pushed s3~D,phi s1~D,tau1 B >= 10, -A > -1 true 
+Map:s1 s2 s3 s4 
+Generated post:s4~D
+Generated locations size:3
+s3~D,phi true B = 1
+s4~D,phi true true
+s4~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:B >= 10, A = 1
+Generated update:true
+T3 pushed s3~D,phi s4~D,tau1 B >= 10, A = 1 true 
+T3 pushed s4~D,tau1 s4~D,phi true true tau1
+Prevelist size:4
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+D A true A = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:3
+s3~D,phi true B = 1
+s3~A,phi true B = 1
+s3~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s3~D,phi s3~A,tau2 true A = 0 
+T2 pushing s4 s1 true A = 0 tau1
+T2 pushing B C true A = 2, C = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+s4 s1 true A = 0 tau1
+B C true A = 2, C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~C
+Generated locations size:4
+s4~B,phi -C >= -5 C = 1
+s1~C,phi true C = 1
+s1~C,tau1,tau2 true A = 0, B = 0, C = 0
+s1~C,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0, A = 2, C = 0
+T3 pushed s4~B,phi s1~C,tau1,tau2 true A = 0, A = 2, C = 0 
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+B C true A = 2, C = 0 tau2
+s4 s1 true A = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s1~C
+Generated locations size:4
+s4~B,phi -C >= -5 C = 1
+s1~C,phi true C = 1
+s1~C,tau1,tau2 true A = 0, B = 0, C = 0
+s1~C,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 2, C = 0, A = 0
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s4 s1 true A = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s4 s1 true A = 0 tau1
+
+Pushing edgestack to ret:
+s4 s1 true A = 0 tau1
+
+Return:
+s4 s1 true A = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s1~B
+Generated locations size:3
+s4~B,phi -C >= -5 C = 1
+s1~B,phi -C >= -5 C = 1
+s1~B,tau1 -C >= -5 A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s4~B,phi s1~B,tau1 true A = 0 
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+B C true A = 2, C = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+B C true A = 2, C = 0 tau2
+
+Pushing edgestack to ret:
+B C true A = 2, C = 0 tau2
+
+Return:
+B C true A = 2, C = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s4~C
+Generated locations size:3
+s4~B,phi -C >= -5 C = 1
+s4~C,phi true C = 1
+s4~C,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 2, C = 0
+T3 pushed s4~B,phi s4~C,tau2 true A = 2, C = 0 
+T3 pushed s4~C,tau2 s4~C,phi true true tau2
+T2 pushing s2 s3 true A = 1, B = 0 tau1
+T2 pushing D A true A = 0 tau2
+Prevelist size:2
+Newelist size:2
+Seq:
+tau1 tau2 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+D A true A = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:4
+s2~D,phi -B >= -5 B = 1
+s3~A,phi true B = 1
+s3~A,tau1,tau2 true A = 0, B = 0, C = 0
+s3~A,tau2 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 1, B = 0, A = 0
+T3 pushed s2~D,phi s3~A,tau1,tau2 true A = 1, B = 0, A = 0 
+Prevelist size:2
+Newelist size:2
+Seq:
+tau2 tau1 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+D A true A = 0 tau2
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s3~A
+Generated locations size:4
+s2~D,phi -B >= -5 B = 1
+s3~A,phi true B = 1
+s3~A,tau1,tau2 true A = 0, B = 0, C = 0
+s3~A,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0, A = 1, B = 0
+Prevelist size:2
+Newelist size:1
+Seq:
+tau1 
+Aggregated on seq:
+s2 s3 true A = 1, B = 0 tau1	
+
+Sizzzzze:1
+Inputtttt:
+s2 s3 true A = 1, B = 0 tau1
+
+Pushing edgestack to ret:
+s2 s3 true A = 1, B = 0 tau1
+
+Return:
+s2 s3 true A = 1, B = 0 tau1
+
+Return size:1
+Map:s1 s2 s3 s4 
+Generated post:s3~D
+Generated locations size:3
+s2~D,phi -B >= -5 B = 1
+s3~D,phi true B = 1
+s3~D,tau1 true A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 1, B = 0
+T3 pushed s2~D,phi s3~D,tau1 true A = 1, B = 0 
+T3 pushed s3~D,tau1 s3~D,phi true true tau1
+Prevelist size:2
+Newelist size:1
+Seq:
+tau2 
+Aggregated on seq:
+D A true A = 0 tau2	
+
+Sizzzzze:1
+Inputtttt:
+D A true A = 0 tau2
+
+Pushing edgestack to ret:
+D A true A = 0 tau2
+
+Return:
+D A true A = 0 tau2
+
+Return size:1
+Map:s1 s2 s3 s4 
+Map:A B C D 
+Generated post:s2~A
+Generated locations size:3
+s2~D,phi -B >= -5 B = 1
+s2~A,phi -B >= -5 B = 1
+s2~A,tau2 -B >= -5 A = 0, B = 0, C = 0
+Generated guard:true
+Generated update:A = 0
+T3 pushed s2~D,phi s2~A,tau2 true A = 0 
+sixth contains
+Automaton Name:G2a~G2b
+Control Variable List: k x y
+Synchronization Label:
+ tau1 tau2
+Parameters:
+
+Initial Location:
+s1~A,phi, invar:A = 0, A = 0
+Location List:
+s1~A,phi, invar:true, rate:true
+s2~B,phi, invar:-B >= -5, -C >= -5, rate:B = 1, C = 1
+s2~B,tau1,tau2, invar:-B >= -5, -C >= -5, rate:A = 0, B = 0, C = 0
+s2~B,tau2, invar:-B >= -5, -C >= -5, rate:A = 0, B = 0, C = 0
+s2~B,tau1, invar:-B >= -5, -C >= -5, rate:A = 0, B = 0, C = 0
+s2~A,phi, invar:-B >= -5, A = 0, rate:B = 1
+s2~A,tau1, invar:-B >= -5, A = 0, rate:A = 0, B = 0, C = 0
+s1~B,phi, invar:A = 0, -C >= -5, rate:C = 1
+s1~B,tau2, invar:A = 0, -C >= -5, rate:A = 0, B = 0, C = 0
+s3~C,phi, invar:true, rate:B = 1, C = 1
+s3~C,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s3~C,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s3~C,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s3~B,phi, invar:-C >= -5, rate:B = 1, C = 1
+s3~B,tau1, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s2~C,phi, invar:-B >= -5, rate:B = 1, C = 1
+s2~C,tau2, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+s3~B,tau1,tau2, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s3~B,tau2, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s3~A,phi, invar:A = 0, rate:B = 1
+s3~A,tau1, invar:A = 0, rate:A = 0, B = 0, C = 0
+s2~C,tau1,tau2, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+s2~C,tau1, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+s1~C,phi, invar:A = 0, rate:C = 1
+s1~C,tau2, invar:A = 0, rate:A = 0, B = 0, C = 0
+s1~A,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s1~A,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s1~D,phi, invar:true, rate:true
+s1~D,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s1~D,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s4~A,phi, invar:true, rate:true
+s4~A,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s4~A,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s4~D,phi, invar:true, rate:true
+s4~D,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s4~D,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s1~A,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s4~A,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s1~D,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s4~D,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s1~C,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s4~C,phi, invar:true, rate:C = 1
+s4~C,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s3~A,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s3~D,phi, invar:true, rate:B = 1
+s3~D,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s1~C,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s4~C,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s4~C,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s1~B,tau1, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s4~B,phi, invar:-C >= -5, rate:C = 1
+s4~B,tau1, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s3~A,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s3~D,tau1,tau2, invar:true, rate:A = 0, B = 0, C = 0
+s3~D,tau1, invar:true, rate:A = 0, B = 0, C = 0
+s2~A,tau2, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+s2~D,phi, invar:-B >= -5, rate:B = 1
+s2~D,tau2, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+s1~B,tau1,tau2, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s4~B,tau1,tau2, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s4~B,tau2, invar:-C >= -5, rate:A = 0, B = 0, C = 0
+s2~A,tau1,tau2, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+s2~D,tau1,tau2, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+s2~D,tau1, invar:-B >= -5, rate:A = 0, B = 0, C = 0
+Edge List:
+ s1~A,phi s2~B,tau1,tau2 ,guards:A = 0, A = 0, updates:B = 0, C = 0 
+ s2~B,tau1,tau2 s2~B,tau2 ,guards:true, updates:true tau1
+ s2~B,tau1,tau2 s2~B,tau1 ,guards:true, updates:true tau2
+ s1~A,phi s2~A,tau1 ,guards:A = 0, updates:B = 0 
+ s2~A,tau1 s2~A,phi ,guards:true, updates:true tau1
+ s1~A,phi s1~B,tau2 ,guards:A = 0, updates:C = 0 
+ s1~B,tau2 s1~B,phi ,guards:true, updates:true tau2
+ s2~B,phi s3~C,tau1,tau2 ,guards:true, updates:A = 1, B = 0, A = 2, C = 0 
+ s3~C,tau1,tau2 s3~C,tau2 ,guards:true, updates:true tau1
+ s3~C,tau1,tau2 s3~C,tau1 ,guards:true, updates:true tau2
+ s2~B,phi s3~B,tau1 ,guards:true, updates:A = 1, B = 0 
+ s3~B,tau1 s3~B,phi ,guards:true, updates:true tau1
+ s2~B,phi s2~C,tau2 ,guards:true, updates:A = 2, C = 0 
+ s2~C,tau2 s2~C,phi ,guards:true, updates:true tau2
+ s2~A,phi s3~B,tau1,tau2 ,guards:A = 0, updates:A = 1, B = 0, C = 0 
+ s3~B,tau1,tau2 s3~B,tau2 ,guards:true, updates:true tau1
+ s3~B,tau1,tau2 s3~B,tau1 ,guards:true, updates:true tau2
+ s2~A,phi s3~A,tau1 ,guards:true, updates:A = 1, B = 0 
+ s3~A,tau1 s3~A,phi ,guards:true, updates:true tau1
+ s2~A,phi s2~B,tau2 ,guards:A = 0, updates:C = 0 
+ s2~B,tau2 s2~B,phi ,guards:true, updates:true tau2
+ s1~B,phi s2~C,tau1,tau2 ,guards:A = 0, updates:B = 0, A = 2, C = 0 
+ s2~C,tau1,tau2 s2~C,tau2 ,guards:true, updates:true tau1
+ s2~C,tau1,tau2 s2~C,tau1 ,guards:true, updates:true tau2
+ s1~B,phi s2~B,tau1 ,guards:A = 0, updates:B = 0 
+ s2~B,tau1 s2~B,phi ,guards:true, updates:true tau1
+ s1~B,phi s1~C,tau2 ,guards:true, updates:A = 2, C = 0 
+ s1~C,tau2 s1~C,phi ,guards:true, updates:true tau2
+ s3~C,phi s1~A,tau1,tau2 ,guards:B >= 10, A > 1, C >= 10, A > 2, updates:true 
+ s1~A,tau1,tau2 s1~A,tau2 ,guards:true, updates:true tau1
+ s3~C,phi s1~A,tau1,tau2 ,guards:B >= 10, A > 1, C >= 10, -A > -2, updates:true 
+ s3~C,phi s1~D,tau1,tau2 ,guards:B >= 10, A > 1, C >= 10, A = 2, updates:true 
+ s1~D,tau1,tau2 s1~D,tau2 ,guards:true, updates:true tau1
+ s3~C,phi s1~A,tau1,tau2 ,guards:B >= 10, -A > -1, C >= 10, A > 2, updates:true 
+ s3~C,phi s1~A,tau1,tau2 ,guards:B >= 10, -A > -1, C >= 10, -A > -2, updates:true 
+ s3~C,phi s1~D,tau1,tau2 ,guards:B >= 10, -A > -1, C >= 10, A = 2, updates:true 
+ s3~C,phi s4~A,tau1,tau2 ,guards:B >= 10, A = 1, C >= 10, A > 2, updates:true 
+ s4~A,tau1,tau2 s4~A,tau2 ,guards:true, updates:true tau1
+ s3~C,phi s4~A,tau1,tau2 ,guards:B >= 10, A = 1, C >= 10, -A > -2, updates:true 
+ s3~C,phi s4~D,tau1,tau2 ,guards:B >= 10, A = 1, C >= 10, A = 2, updates:true 
+ s4~D,tau1,tau2 s4~D,tau2 ,guards:true, updates:true tau1
+ s1~A,tau1,tau2 s1~A,tau1 ,guards:true, updates:true tau2
+ s4~A,tau1,tau2 s4~A,tau1 ,guards:true, updates:true tau2
+ s1~D,tau1,tau2 s1~D,tau1 ,guards:true, updates:true tau2
+ s4~D,tau1,tau2 s4~D,tau1 ,guards:true, updates:true tau2
+ s3~C,phi s1~C,tau1 ,guards:B >= 10, A > 1, updates:true 
+ s1~C,tau1 s1~C,phi ,guards:true, updates:true tau1
+ s3~C,phi s1~C,tau1 ,guards:B >= 10, -A > -1, updates:true 
+ s3~C,phi s4~C,tau1 ,guards:B >= 10, A = 1, updates:true 
+ s4~C,tau1 s4~C,phi ,guards:true, updates:true tau1
+ s3~C,phi s3~A,tau2 ,guards:C >= 10, A > 2, updates:true 
+ s3~A,tau2 s3~A,phi ,guards:true, updates:true tau2
+ s3~C,phi s3~A,tau2 ,guards:C >= 10, -A > -2, updates:true 
+ s3~C,phi s3~D,tau2 ,guards:C >= 10, A = 2, updates:true 
+ s3~D,tau2 s3~D,phi ,guards:true, updates:true tau2
+ s3~B,phi s1~C,tau1,tau2 ,guards:B >= 10, A > 1, updates:A = 2, C = 0 
+ s1~C,tau1,tau2 s1~C,tau2 ,guards:true, updates:true tau1
+ s3~B,phi s1~C,tau1,tau2 ,guards:B >= 10, -A > -1, updates:A = 2, C = 0 
+ s3~B,phi s4~C,tau1,tau2 ,guards:B >= 10, A = 1, updates:A = 2, C = 0 
+ s4~C,tau1,tau2 s4~C,tau2 ,guards:true, updates:true tau1
+ s1~C,tau1,tau2 s1~C,tau1 ,guards:true, updates:true tau2
+ s4~C,tau1,tau2 s4~C,tau1 ,guards:true, updates:true tau2
+ s3~B,phi s1~B,tau1 ,guards:B >= 10, A > 1, updates:true 
+ s1~B,tau1 s1~B,phi ,guards:true, updates:true tau1
+ s3~B,phi s1~B,tau1 ,guards:B >= 10, -A > -1, updates:true 
+ s3~B,phi s4~B,tau1 ,guards:B >= 10, A = 1, updates:true 
+ s4~B,tau1 s4~B,phi ,guards:true, updates:true tau1
+ s3~B,phi s3~C,tau2 ,guards:true, updates:A = 2, C = 0 
+ s3~C,tau2 s3~C,phi ,guards:true, updates:true tau2
+ s2~C,phi s3~A,tau1,tau2 ,guards:C >= 10, A > 2, updates:A = 1, B = 0 
+ s3~A,tau1,tau2 s3~A,tau2 ,guards:true, updates:true tau1
+ s2~C,phi s3~A,tau1,tau2 ,guards:C >= 10, -A > -2, updates:A = 1, B = 0 
+ s2~C,phi s3~D,tau1,tau2 ,guards:C >= 10, A = 2, updates:A = 1, B = 0 
+ s3~D,tau1,tau2 s3~D,tau2 ,guards:true, updates:true tau1
+ s3~A,tau1,tau2 s3~A,tau1 ,guards:true, updates:true tau2
+ s3~D,tau1,tau2 s3~D,tau1 ,guards:true, updates:true tau2
+ s2~C,phi s3~C,tau1 ,guards:true, updates:A = 1, B = 0 
+ s3~C,tau1 s3~C,phi ,guards:true, updates:true tau1
+ s2~C,phi s2~A,tau2 ,guards:C >= 10, A > 2, updates:true 
+ s2~A,tau2 s2~A,phi ,guards:true, updates:true tau2
+ s2~C,phi s2~A,tau2 ,guards:C >= 10, -A > -2, updates:true 
+ s2~C,phi s2~D,tau2 ,guards:C >= 10, A = 2, updates:true 
+ s2~D,tau2 s2~D,phi ,guards:true, updates:true tau2
+ s3~A,phi s1~B,tau1,tau2 ,guards:B >= 10, A > 1, A = 0, updates:C = 0 
+ s1~B,tau1,tau2 s1~B,tau2 ,guards:true, updates:true tau1
+ s3~A,phi s1~B,tau1,tau2 ,guards:B >= 10, -A > -1, A = 0, updates:C = 0 
+ s3~A,phi s4~B,tau1,tau2 ,guards:B >= 10, A = 1, A = 0, updates:C = 0 
+ s4~B,tau1,tau2 s4~B,tau2 ,guards:true, updates:true tau1
+ s1~B,tau1,tau2 s1~B,tau1 ,guards:true, updates:true tau2
+ s4~B,tau1,tau2 s4~B,tau1 ,guards:true, updates:true tau2
+ s3~A,phi s1~A,tau1 ,guards:B >= 10, A > 1, updates:true 
+ s1~A,tau1 s1~A,phi ,guards:true, updates:true tau1
+ s3~A,phi s1~A,tau1 ,guards:B >= 10, -A > -1, updates:true 
+ s3~A,phi s4~A,tau1 ,guards:B >= 10, A = 1, updates:true 
+ s4~A,tau1 s4~A,phi ,guards:true, updates:true tau1
+ s3~A,phi s3~B,tau2 ,guards:A = 0, updates:C = 0 
+ s3~B,tau2 s3~B,phi ,guards:true, updates:true tau2
+ s1~C,phi s2~A,tau1,tau2 ,guards:A = 0, C >= 10, A > 2, updates:B = 0 
+ s2~A,tau1,tau2 s2~A,tau2 ,guards:true, updates:true tau1
+ s1~C,phi s2~A,tau1,tau2 ,guards:A = 0, C >= 10, -A > -2, updates:B = 0 
+ s1~C,phi s2~D,tau1,tau2 ,guards:A = 0, C >= 10, A = 2, updates:B = 0 
+ s2~D,tau1,tau2 s2~D,tau2 ,guards:true, updates:true tau1
+ s2~A,tau1,tau2 s2~A,tau1 ,guards:true, updates:true tau2
+ s2~D,tau1,tau2 s2~D,tau1 ,guards:true, updates:true tau2
+ s1~C,phi s2~C,tau1 ,guards:A = 0, updates:B = 0 
+ s2~C,tau1 s2~C,phi ,guards:true, updates:true tau1
+ s1~C,phi s1~A,tau2 ,guards:C >= 10, A > 2, updates:true 
+ s1~A,tau2 s1~A,phi ,guards:true, updates:true tau2
+ s1~C,phi s1~A,tau2 ,guards:C >= 10, -A > -2, updates:true 
+ s1~C,phi s1~D,tau2 ,guards:C >= 10, A = 2, updates:true 
+ s1~D,tau2 s1~D,phi ,guards:true, updates:true tau2
+ s1~D,phi s2~A,tau1,tau2 ,guards:A = 0, updates:B = 0, A = 0 
+ s1~D,phi s2~D,tau1 ,guards:A = 0, updates:B = 0 
+ s2~D,tau1 s2~D,phi ,guards:true, updates:true tau1
+ s1~D,phi s1~A,tau2 ,guards:true, updates:A = 0 
+ s4~A,phi s1~B,tau1,tau2 ,guards:A = 0, updates:A = 0, C = 0 
+ s4~A,phi s1~A,tau1 ,guards:true, updates:A = 0 
+ s4~A,phi s4~B,tau2 ,guards:A = 0, updates:C = 0 
+ s4~B,tau2 s4~B,phi ,guards:true, updates:true tau2
+ s4~D,phi s1~A,tau1,tau2 ,guards:true, updates:A = 0, A = 0 
+ s4~D,phi s1~D,tau1 ,guards:true, updates:A = 0 
+ s1~D,tau1 s1~D,phi ,guards:true, updates:true tau1
+ s4~D,phi s4~A,tau2 ,guards:true, updates:A = 0 
+ s4~A,tau2 s4~A,phi ,guards:true, updates:true tau2
+ s4~C,phi s1~A,tau1,tau2 ,guards:C >= 10, A > 2, updates:A = 0 
+ s4~C,phi s1~A,tau1,tau2 ,guards:C >= 10, -A > -2, updates:A = 0 
+ s4~C,phi s1~D,tau1,tau2 ,guards:C >= 10, A = 2, updates:A = 0 
+ s4~C,phi s1~C,tau1 ,guards:true, updates:A = 0 
+ s4~C,phi s4~A,tau2 ,guards:C >= 10, A > 2, updates:true 
+ s4~C,phi s4~A,tau2 ,guards:C >= 10, -A > -2, updates:true 
+ s4~C,phi s4~D,tau2 ,guards:C >= 10, A = 2, updates:true 
+ s4~D,tau2 s4~D,phi ,guards:true, updates:true tau2
+ s3~D,phi s1~A,tau1,tau2 ,guards:B >= 10, A > 1, updates:A = 0 
+ s3~D,phi s1~A,tau1,tau2 ,guards:B >= 10, -A > -1, updates:A = 0 
+ s3~D,phi s4~A,tau1,tau2 ,guards:B >= 10, A = 1, updates:A = 0 
+ s3~D,phi s1~D,tau1 ,guards:B >= 10, A > 1, updates:true 
+ s3~D,phi s1~D,tau1 ,guards:B >= 10, -A > -1, updates:true 
+ s3~D,phi s4~D,tau1 ,guards:B >= 10, A = 1, updates:true 
+ s4~D,tau1 s4~D,phi ,guards:true, updates:true tau1
+ s3~D,phi s3~A,tau2 ,guards:true, updates:A = 0 
+ s4~B,phi s1~C,tau1,tau2 ,guards:true, updates:A = 0, A = 2, C = 0 
+ s4~B,phi s1~B,tau1 ,guards:true, updates:A = 0 
+ s4~B,phi s4~C,tau2 ,guards:true, updates:A = 2, C = 0 
+ s4~C,tau2 s4~C,phi ,guards:true, updates:true tau2
+ s2~D,phi s3~A,tau1,tau2 ,guards:true, updates:A = 1, B = 0, A = 0 
+ s2~D,phi s3~D,tau1 ,guards:true, updates:A = 1, B = 0 
+ s3~D,tau1 s3~D,phi ,guards:true, updates:true tau1
+ s2~D,phi s2~A,tau2 ,guards:true, updates:A = 0 
+End2:

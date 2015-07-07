@@ -1,0 +1,51 @@
+timedautomaton F5a
+contr_var: x;
+input_var: y;
+synclabs: a,b;
+loc s1: while true
+	when true sync a do {x'==0} goto s2;
+loc s2: while true
+	when y>3 sync b goto s1;
+initially: s1;
+end
+
+timedautomaton F5b
+contr_var: y;
+input_var: x;
+synclabs: c,d;
+loc s3: while true
+	when true sync c do {y'==0} goto s4;
+loc s4: while true
+	when x>5 sync d goto s3;
+initially: s3;
+end
+
+//F5a.print;
+//F5b.print;
+
+three.add_aut(F5a);
+three.add_aut(F5b);
+//three.print;
+fourth:=take_composition(three);
+
+fourth.print;
+
+
+val:=true;
+myval:="s1~s4" & val;
+myval.print;
+
+
+
+seventh:=to_Region_Automata(fourth);
+//seventh.print;
+seventh.to_dot;
+//seventh.print;
+
+l:=is_reachable_by_dfs_fb(seventh,myval);
+
+//l:=is_reachable_by_bfs_fb(seventh,myval);
+
+
+l.print;
+

@@ -1,0 +1,12 @@
+digraph a6inst {
+ rankdir=LR;
+ size="8,5"
+0 [label="s0\ntrue\ntrue",color=red, style=filled];
+1 [label="s1\ntrue\ntrue",color=red, style=filled];
+2 [label="s2\ntrue\ntrue",color=red, style=filled];
+3 [label="s3\ntrue\ntrue",color=red, style=filled];
+0 -> 1 [label="a\ntrue\nA = 0"];
+1 -> 2 [label="b\ntrue\nB = 0"];
+2 -> 3 [label="c\n-A > -1\ntrue"];
+3 -> 0 [label="d\nB > 2\ntrue"];
+}

@@ -1,0 +1,25 @@
+timedautomaton F9a
+contr_var: x;
+input_var: y;
+synclabs: a,tau1;
+loc s0: while true
+	when x>2 sync a goto s1;
+loc s1: while true
+	when y>3 sync a goto s0;
+initially: s0;
+end
+
+timedautomaton F9b
+contr_var: y;
+input_var: x;
+synclabs: a,tau2;
+loc s2: while true
+	when y>2 sync tau2 goto s3;
+loc s3: while true
+	when x>3 sync a goto s2;
+initially: s2;
+end
+
+
+//F9a.print;
+F9b.print;

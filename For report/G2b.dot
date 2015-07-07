@@ -1,0 +1,14 @@
+digraph G2b {
+ rankdir=LR;
+ size="8,5"
+0 [label="A\ntrue\n",color=red, style=filled];
+1 [label="B\ny <= 5\ny == 1.1",color=red, style=filled];
+2 [label="C\ntrue\ny == 1.1",color=red, style=filled];
+3 [label="D\ntrue\n",color=red, style=filled];
+0 -> 1 [label="tau2\nk == 0\ny == 0"];
+1 -> 2 [label="tau2\ntrue\nk == 2 & y == 0"];
+2 -> 0 [label="tau2\ny >= 10 & k > 2\n"];
+2 -> 0 [label="tau2\ny >= 10 & k < 2\n"];
+2 -> 3 [label="tau2\ny >= 10 & k == 2\n"];
+3 -> 0 [label="tau2\ntrue\nk == 0"];
+}

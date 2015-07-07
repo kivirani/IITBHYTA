@@ -1,0 +1,76 @@
+timedautomaton F3a
+contr_var: x;
+synclabs: press;
+loc off: while true
+	when true sync press do {x'==0} goto dim;
+loc dim: while true
+	when x>2 sync press goto off;
+	when x<=2 sync press goto bright;
+loc bright: while true
+	when true sync press goto off;
+initially: off & x==0;
+end
+
+
+timedautomaton F3b
+contr_var: y;
+synclabs: press,tau;
+loc idle: while true
+	when true sync press do {y'==0} goto t;
+	when true sync press do {y' == 0} goto relax;
+loc relax: while true
+	when y>2 sync press goto idle;
+loc t: while y<2
+	when true sync press goto study;
+loc study: while true
+	when true sync tau goto study;
+	when true sync press goto idle;
+initially: idle & y==0;
+end
+
+
+timedautomaton F3c
+contr_var: z;
+synclabs: press,tau;
+loc iidle: while true
+	when true sync press do {z'==0} goto tt;
+	when true sync press do {z' == 0} goto rrelax;
+loc rrelax: while true
+	when y>2 sync press goto iidle;
+loc tt: while y<2
+	when true sync press goto sstudy;
+loc sstudy: while true
+	when true sync tau goto sstudy;
+	when true sync press goto iidle;
+initially: iidle & z==0;
+end
+
+F3a.to_dot;
+F3b.to_dot;
+F3c.to_dot;
+
+//F3a.print;
+//F3b.print;
+
+three.add_aut(F3a);
+three.add_aut(F3b);
+three.add_aut(F3c);
+//three.print;
+
+sixth:=to_ICTA(three);
+
+sixth.to_dot;
+
+//sixth.print;
+
+eightth:=hybrid_flavoured_timed_aut_to_timed_aut(sixth);
+
+//eightth.print;
+eightth.to_dot;
+
+seventh:=to_Region_Automata(eightth);
+
+//seventh.print;
+
+seventh.to_dot;
+

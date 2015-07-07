@@ -1,0 +1,26 @@
+hybridautomaton B14
+contr_var: y;
+synclabs: on,off,turnon,turnoff;
+loc b1: while true wait {y'==0}
+	when true sync turnon do {y'==0} goto b2;
+loc b2: while y<=1 wait {y'==1}
+	when true sync on do {y'==0} goto b3;
+loc b3: while true wait {y'==0}
+	when true sync turnoff do {y'==0} goto b4;
+loc b4: while y<=1 wait {y'==1}
+	when true sync off do {y'==0} goto b1;
+initially: b1 & y==0;
+end
+
+//B14.print;
+
+val:=y<10;
+myval:=b1 & val;
+myval.print;
+
+
+autinst:=B14;
+//l:=is_reachable(autinst,myval);
+l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+l.print;

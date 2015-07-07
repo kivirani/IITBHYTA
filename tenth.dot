@@ -1,0 +1,32 @@
+digraph tenth {
+ rankdir=LR;
+ size="8,5"
+0 [label="l0~l2,phi\n-A > -5, -B > -3, A > -3, -C > -3, B >= 0, C >= 0\nC = 2, B = 1, A = 1",color=red, style=filled];
+1 [label="l0~l2,a\n-A > -5, -B > -3, A > -3, -C > -3, B >= 0, C >= 0\nC = 0, B = 0, A = 0",color=red, style=filled];
+2 [label="l0~l3,phi\n-A > -5, -B > -4, A > -3, -C > -3, B > 3, C > 1\nfalse",color=red, style=filled];
+3 [label="l0~l3,a\n-A > -5, -B > -4, A > -3, -C > -3, B > 3, C > 1\nC = 0, B = 0, A = 0",color=red, style=filled];
+4 [label="l1~l2,phi\n-A > -5, -B > -3, A > 3, -C > -3, B > 2, C > 1\nC = 2, B = 1, A = 1",color=red, style=filled];
+5 [label="l1~l2,a\n-A > -5, -B > -3, A > 3, -C > -3, B > 2, C > 1\nC = 0, B = 0, A = 0",color=red, style=filled];
+6 [label="l1~l3,phi\n-A > -5, -B > -4, A > 3, -C > -3, B > 3, C > 1\nfalse",color=red, style=filled];
+7 [label="l1~l3,a\n-A > -5, -B > -4, A > 3, -C > -3, B > 3, C > 1\nC = 0, B = 0, A = 0",color=red, style=filled];
+8 [label="l1~l3,b\n-A > -5, -B > -4, A > 3, -C > -3, B > 3, C > 1\nC = 0, B = 0, A = 0",color=red, style=filled];
+9 [label="l1~l2,b\n-A > -5, -B > -3, A > 3, -C > -3, B > 2, C > 1\nC = 0, B = 0, A = 0",color=red, style=filled];
+10 [label="l0~l3,b\n-A > -5, -B > -4, A > -3, -C > -3, B > 3, C > 1\nC = 0, B = 0, A = 0",color=red, style=filled];
+11 [label="l0~l2,b\n-A > -5, -B > -3, A > -3, -C > -3, B >= 0, C >= 0\nC = 0, B = 0, A = 0",color=red, style=filled];
+0 -> 1 [label="\ntrue\ntrue"];
+1 -> 0 [label="a\ntrue\ntrue"];
+0 -> 3 [label="\nB > 3\ntrue"];
+3 -> 2 [label="a\ntrue\ntrue"];
+0 -> 5 [label="\nC > 1\ntrue"];
+5 -> 4 [label="a\ntrue\ntrue"];
+0 -> 7 [label="\nC > 1, B > 3\ntrue"];
+7 -> 6 [label="a\ntrue\ntrue"];
+6 -> 8 [label="\ntrue\ntrue"];
+8 -> 6 [label="b\ntrue\ntrue"];
+6 -> 9 [label="\nA > 3\ntrue"];
+9 -> 4 [label="b\ntrue\ntrue"];
+6 -> 10 [label="\n-A > -3\ntrue"];
+10 -> 2 [label="b\ntrue\ntrue"];
+6 -> 11 [label="\nfalse\ntrue"];
+11 -> 0 [label="b\ntrue\ntrue"];
+}

@@ -1,0 +1,63 @@
+hybridautomaton G1a
+contr_var: x;
+synclabs: approach,exit,tau1;
+loc far: while x>=1000 wait {x'>=-50 & x'<=-40}
+	when x==1000 sync approach goto near;
+loc near: while x>=0 wait {x'>=-50 & x'<=-40}
+	when x==0 sync tau1 goto past;
+loc past: while x>=-100 wait {x'>=-50 & x'<=-40}
+	when x==-100 sync exit do {x'>=1900 & x'<=4900} goto far;
+initially: far & x<=5000;
+end
+
+hybridautomaton G1b
+contr_var: u,z;
+synclabs: approach,exit,raise,lower;
+loc idle: while true wait {z'==1 & u'==0}
+	when true sync exit do {z'==0} goto s1;
+	when true sync approach do {z'==0} goto s0;
+loc s0: while z<=u wait {z'==1 & u'==0}
+	when true sync lower goto idle;
+	when true sync approach goto s0;
+	when true sync exit goto s0;
+loc s1: while z<=u wait {z'==1 & u'==0}
+	when true sync exit goto s1;
+	when true sync raise goto idle;
+	when true sync approach goto s0;
+initially: idle;
+end
+
+
+hybridautomaton G1c
+contr_var: y;
+synclabs: raise,lower,tau2;
+loc open: while y==90 wait {y'==0}
+	when true sync raise goto open;
+	when true sync lower goto movedown;
+loc moveup: while y<=90 wait {y'==0}
+	when true sync lower goto movedown;
+	when true sync raise goto moveup;
+	when y==90 sync tau2 goto open;
+loc movedown: while true wait {y'==0}
+	when true sync lower goto movedown;
+	when true sync raise goto moveup;
+	when y==0 sync tau2 goto closed;
+loc closed: while true wait {y'==0}
+	when true sync lower goto closed;
+	when true sync raise goto moveup;
+initially: open;
+end
+
+//G1a.print;
+//G1b.print;
+//G1c.print;
+
+three.add_aut(G1a);
+three.add_aut(G1b);
+three.add_aut(G1c);
+//three.print;
+
+sixth:=to_ICTA(three);
+sixth.to_dot;
+sixth.print;
+

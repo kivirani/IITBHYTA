@@ -1,0 +1,59 @@
+timedautomaton A11p
+contr_var: x;
+synclabs: a;
+loc s0: while x<=1
+	when x==1 sync a do {x'==0} goto s0;
+initially: s0 & x==0;
+end
+
+
+timedautomaton A11q
+contr_var: y;
+synclabs: b;
+loc r0: while y<=1
+	when y==1 sync b do {y'==0} goto r0;
+initially: r0 & x==0;
+end
+
+
+A11p.to_dot;
+A11q.to_dot;
+
+
+
+//Ap.print;
+//Aq.print;
+
+three1.add_aut(A11p);
+three1.add_aut(A11q);
+
+//three.print;
+
+sixth1:=to_ICTA(three1);
+
+sixth1.to_dot;
+
+//sixth.print;
+
+eightth1:=hybrid_flavoured_timed_aut_to_timed_aut(sixth1);
+
+//eightth.print;
+eightth1.to_dot;
+
+seventh1:=to_Region_Automata(eightth1);
+
+//seventh.print;
+
+seventh1.to_dot;
+
+//val:=true;
+
+
+//state:=s0~r0 & val;
+
+//state.print;
+
+//l:=is_reachable_by_dfs_fb(seventh1,state);
+
+//l.print;
+

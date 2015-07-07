@@ -1,0 +1,35 @@
+digraph three {
+ rankdir=LR;
+ size="8,5"
+0 [label="far\nx >= 1000\nx >= -50x <= -40",color=red, style=filled];
+1 [label="near\nx >= 0\nx >= -50x <= -30",color=red, style=filled];
+2 [label="past\nx >= -100\nx >= -50x <= -30",color=red, style=filled];
+0 -> 1 [label="approach\nx == 1000\n"];
+1 -> 2 [label="tau1\nx == 0\n"];
+2 -> 0 [label="exit\nx == -100\nx >= 1900 & x <= 4900"];
+3 [label="idle\ntrue\nz == 1u == 0",color=red, style=filled];
+4 [label="s0\nz <= u\nz == 1u == 0",color=red, style=filled];
+5 [label="s1\nz <= u\nz == 1u == 0",color=red, style=filled];
+3 -> 5 [label="exit\ntrue\nz == 0"];
+3 -> 4 [label="approach\ntrue\nz == 0"];
+4 -> 3 [label="lower\ntrue\n"];
+4 -> 4 [label="approach\ntrue\n"];
+4 -> 4 [label="exit\ntrue\n"];
+5 -> 5 [label="exit\ntrue\n"];
+5 -> 3 [label="raise\ntrue\n"];
+5 -> 4 [label="approach\ntrue\n"];
+6 [label="open\ny == 90\ny == 0",color=red, style=filled];
+7 [label="moveup\ny <= 90\ny == 9",color=red, style=filled];
+8 [label="movedown\ntrue\n",color=red, style=filled];
+9 [label="closed\ntrue\n",color=red, style=filled];
+6 -> 6 [label="raise\ntrue\n"];
+6 -> 8 [label="lower\ntrue\n"];
+7 -> 8 [label="lower\ntrue\n"];
+7 -> 7 [label="raise\ntrue\n"];
+7 -> 6 [label="tau2\ny == 90\n"];
+8 -> 8 [label="lower\ntrue\n"];
+8 -> 7 [label="raise\ntrue\n"];
+8 -> 9 [label="tau2\ny == 0\n"];
+9 -> 9 [label="lower\ntrue\n"];
+9 -> 7 [label="raise\ntrue\n"];
+}

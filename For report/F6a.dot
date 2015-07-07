@@ -1,0 +1,9 @@
+digraph F6a {
+ rankdir=LR;
+ size="8,5"
+0 [label="s1\ntrue\n",color=red, style=filled];
+1 [label="s2\ntrue\n",color=red, style=filled];
+0 -> 1 [label="a\ny < 2\n"];
+0 -> 1 [label="a\ny > 2\n"];
+1 -> 0 [label="b\nx < 3\n"];
+}

@@ -1,0 +1,20 @@
+timedautomaton A10
+contr_var: x,y,z;
+synclabs: tau;
+loc start: while true
+	when true sync tau do {x' == 0 & y' == 0} goto loop;
+loc loop: while x<=10 & z<=20
+	when x==10 sync tau do {x' == 0} goto loop;
+	when y>=20 sync tau do {x' == 0 & y' == 0} goto endd;
+loc endd: while true
+initially: start & x==0 & y==0 & z==0;
+end
+
+//A10.print;
+
+a10inst:=A10;
+//a10inst.print;
+seventh:=to_Region_Automata(a10inst);
+
+seventh.print;
+

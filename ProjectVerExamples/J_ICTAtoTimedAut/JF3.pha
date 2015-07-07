@@ -1,0 +1,32 @@
+timedautomaton F3a
+contr_var: x;
+synclabs: press;
+loc off: while true
+	when true sync press do {x'==0} goto dim;
+loc dim: while true
+	when x>10 sync press goto off;
+	when x<=10 sync press goto bright;
+loc bright: while true
+	when true sync press goto off;
+initially: off;
+end
+
+timedautomaton F3b
+contr_var: y;
+synclabs: press,tau;
+loc idle: while true
+	when true sync press do {y'==0} goto t;
+	when true sync press do {y' == 0} goto relax;
+loc relax: while true
+	when y>10 sync press goto idle;
+loc t: while y<5
+	when true sync press goto study;
+loc study: while true
+	when true sync tau goto study;
+	when true sync press goto idle;
+initially: idle;
+end
+
+
+//F3a.print;
+F3b.print;

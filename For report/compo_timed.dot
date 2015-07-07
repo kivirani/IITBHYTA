@@ -1,0 +1,13 @@
+digraph fourth {
+ rankdir=LR;
+ size="8,5"
+0 [label="s0~s2\ntrue\ntrue",color=red, style=filled];
+1 [label="s1~s2\ntrue\ntrue",color=red, style=filled];
+2 [label="s0~s3\ntrue\ntrue",color=red, style=filled];
+3 [label="s1~s3\ntrue\ntrue",color=red, style=filled];
+0 -> 1 [label="a\nA > 2\ntrue"];
+0 -> 2 [label="b\nA > 3\ntrue"];
+1 -> 3 [label="b\nA > 3\ntrue"];
+2 -> 3 [label="a\nA > 2\ntrue"];
+3 -> 0 [label="c\nB > 3\ntrue"];
+}

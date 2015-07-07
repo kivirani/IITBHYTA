@@ -1,0 +1,14 @@
+digraph F3b {
+ rankdir=LR;
+ size="8,5"
+0 [label="idle\ntrue\n",color=red, style=filled];
+1 [label="relax\ntrue\n",color=red, style=filled];
+2 [label="t\ny < 5\n",color=red, style=filled];
+3 [label="study\ntrue\n",color=red, style=filled];
+0 -> 2 [label="press\ntrue\ny == 0"];
+0 -> 1 [label="press\ntrue\ny == 0"];
+1 -> 0 [label="press\ny > 10\n"];
+2 -> 3 [label="press\ntrue\n"];
+3 -> 3 [label="tau\ntrue\n"];
+3 -> 0 [label="press\ntrue\n"];
+}

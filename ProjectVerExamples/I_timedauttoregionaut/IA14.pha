@@ -1,0 +1,14 @@
+timedautomaton A14
+loc s0: while true
+initially: s0;
+end
+
+A14.print;
+
+a14inst:=A14;
+//a14inst.print;
+seventh:=to_Region_Automata(a14inst);
+
+seventh.print;
+
+

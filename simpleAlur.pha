@@ -1,0 +1,15 @@
+automaton alur
+contr_var: x,y;
+synclabs: a,b,c,d;
+loc s0: while x >= 0 wait {x' == 1 & y' == 1}
+	when x >= 0 sync a do {y' == 0} goto s1;
+loc s1: while x >= 0 wait {x' == 1 & y' == 1}
+	when y == 1 sync b goto s2;
+	when x < 1 sync c goto s3;
+loc s2: while x >= 0 wait {x' == 1 & y' == 1}
+	when x < 1 sync c goto s3;
+loc s3: while x >= 0 wait {x' == 1 & y' == 1}
+	when x > 1 sync d goto s3;
+	when y < 1 sync a do {y' == 0} goto s1;
+initially: s0 & x==0 & y==0;
+end

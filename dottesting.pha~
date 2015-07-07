@@ -1,0 +1,21 @@
+hybridautomaton B1
+contr_var: x;
+synclabs: tau;
+//loc off: while x>=18 wait {x'==-1}
+loc off: while x<=20 wait {x'==-1}
+	when x>18 sync tau goto on;
+	when x>19 sync tau goto off;
+loc on: while x<=22 wait {x'==1}
+	when x<19 sync tau goto off;
+initially: off & x==20;
+end
+
+B1.print;
+//B1inst:=B1;
+
+//B1inst.print;
+
+//B1inst.to_dot;
+
+B1.to_dot;
+

@@ -1,0 +1,34 @@
+timedautomaton A10
+contr_var: x,y;
+synclabs: tau;
+loc start: while true
+	when true sync tau do {x' == 0 & y' == 0} goto loop;
+loc loop: while x<=10
+	when x==10 sync tau do {x' == 0} goto loop;
+	when y>=20 sync tau do {x' == 0 & y' == 0} goto endd;
+loc endd: while true
+initially: start;
+end
+
+//A10.print;
+
+val:=true;
+myval:=loop & val;
+myval.print;
+
+
+autinst:=A10;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+
+
+seventh:=to_Region_Automata(autinst);
+//seventh.print;
+
+//l:=is_reachable_by_dfs_fb(seventh,myval);
+
+l:=is_reachable_by_bfs_fb(seventh,myval);
+
+
+l.print;

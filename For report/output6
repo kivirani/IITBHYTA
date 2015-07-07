@@ -1,0 +1,21 @@
+ficta contains
+Automaton Name:F6a~F6b
+Control Variable List: x y
+Synchronization Label:
+ a b
+Parameters:
+
+Initial Location:
+s1~s3,phi, invar:true
+Location List:
+s1~s3,phi, invar:true, rate:true
+s2~s4,phi, invar:true, rate:true
+s2~s4,a, invar:true, rate:A = 0, B = 0
+s1~s3,b, invar:true, rate:A = 0, B = 0
+Edge List:
+ s1~s3,phi s2~s4,a ,guards:-B > -2, A > 0, updates:true 
+ s2~s4,a s2~s4,phi ,guards:true, updates:true a
+ s1~s3,phi s2~s4,a ,guards:B > 2, A > 0, updates:true 
+ s2~s4,phi s1~s3,b ,guards:-A > -3, updates:true 
+ s1~s3,b s1~s3,phi ,guards:true, updates:true b
+End2:

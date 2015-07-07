@@ -1,0 +1,38 @@
+hybridautomaton G8a
+contr_var: x;
+synclabs: a,b;
+loc l0: while x>=1 & x<3 wait {x'==1} 
+	when true sync a goto l0;
+	when x>2 sync a goto l1;
+loc l1: while x>2 & x<5 wait {x'==-1} 
+	when true sync b goto l1;
+	when x>2 sync b goto l0;
+initially: l0 & x==1;
+end
+
+hybridautomaton G8b
+contr_var: y;
+synclabs: b,c;
+loc l2: while y>=2 & y<4 wait {y'==2}
+	when true sync c goto l2;
+	when y>3 sync c goto l3;
+loc l3: while y>1 & y<6 wait {y'==3}
+	when true sync b goto l3;
+	when y>2 sync b goto l2;
+initially: l2 & y==2;
+end
+
+//G8a.print;
+//G8b.print;
+
+//threeinst:=G8a & G8b;
+//threeinst.print;
+
+three.add_aut(G8a);
+three.add_aut(G8b);
+//three.print;
+
+fourth:=take_composition(three);
+
+fourth.print;
+

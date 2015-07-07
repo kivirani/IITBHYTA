@@ -1,0 +1,32 @@
+hybridautomaton B4
+contr_var: x,y;
+synclabs: tau;
+loc s0: while x<=600 & y<=500 wait {x'==1 & y'==5}
+	when x==600 sync tau goto s1;
+	when y==500 sync tau goto s2;
+loc s1: while x>=0 & y<=500 wait {x'==-1 & y'==5}
+	when x==0 sync tau goto s0;
+	when y==500 sync tau goto s3;
+loc s2: while x<=600 & y>=0 wait {x'==1 & y'==-5}
+	when y==0 sync tau goto s0;
+	when x==600 sync tau goto s3;
+loc s3: while x>=0 & y>=0 wait {x'==-1 & y'==-5}
+	when x==0 sync tau goto s2;
+	when y==0 sync tau goto s1;
+initially: s0 & x==200 & y==300;
+end
+
+//B4.print;
+maxiterations:=60
+
+val:=x==600;
+myval:=s1 & val;
+myval.print;
+
+
+autinst:=B4;
+//l:=is_reachable(autinst,myval);
+l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+l.print;
+

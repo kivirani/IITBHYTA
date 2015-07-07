@@ -1,0 +1,30 @@
+timedautomaton A14
+loc s0: while true
+initially: s0;
+end
+
+//A3.print;
+
+val:=true;
+myval:=s0 & val;
+myval.print;
+
+
+autinst:=A14;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+
+
+seventh:=to_Region_Automata(autinst);
+//seventh.print;
+
+//l:=is_reachable_by_dfs_fb(seventh,myval);
+
+l:=is_reachable_by_bfs_fb(seventh,myval);
+
+
+
+l.print;
+
+

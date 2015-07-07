@@ -1,0 +1,13 @@
+automaton water_level_monitor
+contr_var: x,y;
+synclabs: a,b,c,d;
+loc l0: while y <= 10 wait {x' == 1 & y' == 1}
+	when y==10 sync a do {x' == 0} goto l1;
+loc l1: while x <= 2 wait {x' == 1 & y' == 1}
+	when x == 2 sync b goto l2;
+loc l2: while y >= 5 wait {x' == 1 & y' == -2}
+	when y==5 sync c do {x' == 0} goto l3;
+loc l3: while x <= 2 wait {x' == 1 & y' == -2}
+	when x==2 sync a goto l0;
+initially:l0 & y==1;
+end

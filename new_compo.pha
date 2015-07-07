@@ -1,0 +1,24 @@
+automaton one
+contr_var: x,y;
+synclabs: a,b,c;
+loc l0: while x<2 wait {x' == 1}
+	when x == 2 sync a goto l1;
+	when x == 1 sync a goto l2;
+loc l1: while x > 1 wait { x' == 2}
+	when x == 3 sync c do {x' == 0} goto l0;
+loc l2: while x > 3 wait {x' == 2}
+	when x>3 sync b do {x' == 1} goto l0;
+initially: l0 & x==0;
+end
+automaton two
+contr_var: x,y;
+synclabs: a,d,e;
+loc m0: while y<2 wait {y' == 1}
+	when y == 2 sync a goto m1;
+	when y == 1 sync a goto m2;
+loc m1: while y > 1 wait { y' == 2}
+	when y == 3 sync d do {y' == 0} goto m0;
+loc m2: while y > 3 wait {y' == 2}
+	when y>3 sync e do {y' == 1} goto m0;
+initially: m0 & y==0;
+end

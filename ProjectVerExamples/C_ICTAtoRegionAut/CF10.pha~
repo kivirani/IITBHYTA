@@ -1,0 +1,50 @@
+timedautomaton F10a
+contr_var: x,y;
+input_var: z;
+synclabs: tau1;
+loc s0: while true
+	when x>2 sync tau1 do {y'==0} goto s1;
+loc s1: while true
+	when z>3 sync tau1 do {x'==0} goto s2;
+loc s2: while true
+	when y>3 sync tau1 goto s0;
+initially: s0;
+end
+
+timedautomaton F10b
+contr_var: w,z;
+input_var: x;
+synclabs: tau2;
+loc s3: while true
+	when z>2 sync tau2 do {z'==0} goto s4;
+loc s4: while true
+	when w<2 & x<3 sync tau2 goto s5;
+loc s5: while true
+	when true sync tau2 do {w'==0} goto s6;
+loc s6: while true
+	when z<2 sync tau2 goto s3;
+initially: s3;
+end
+
+
+//F10a.print;
+//F10b.print;
+
+three.add_aut(F10a);
+three.add_aut(F10b);
+//three.print;
+
+sixth:=to_ICTA(three);
+
+//sixth.print;
+
+
+eightth:=hybrid_flavoured_timed_aut_to_timed_aut(sixth);
+
+//eightth.print;
+
+
+seventh:=to_Region_Automata(eightth);
+
+seventh.print;
+

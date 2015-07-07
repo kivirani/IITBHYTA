@@ -1,0 +1,27 @@
+hybridautomaton B12
+contr_var: x,y;
+synclabs: tau;
+loc l0: while y<=10 wait {x'==1 & y'==1}
+	when y==10 sync tau do {x'==0} goto l1;
+loc l1: while x<=2 wait {x'==1 & y'==1}
+	when x==2 sync tau goto l2;
+loc l2: while y>=5 wait {x'==1 & y'==-2}
+	when y==5 sync tau do {x'==0} goto l3;
+loc l3: while x<=2 wait {x'==1 & y'==-2}
+	when x==2 sync tau goto l0;
+initially: l0 & y==1;
+end
+
+//B12.print;
+
+val:=x<10;
+myval:=l3 & val;
+myval.print;
+
+
+autinst:=B12;
+//l:=is_reachable(autinst,myval);
+l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+l.print;
+

@@ -1,0 +1,86 @@
+Automaton Name:F3a
+Control Variable List: x y
+Synchronization Label:
+ press
+Parameters:
+
+Initial Location:
+off, invar:true
+Location List:
+off, invar:true, rate:true
+dim, invar:true, rate:true
+bright, invar:true, rate:true
+Edge List:
+ off dim ,guards:true, updates:A = 0 press
+ dim off ,guards:A > 10, updates:true press
+ dim bright ,guards:-A >= -10, updates:true press
+ bright off ,guards:true, updates:true press
+End2:
+Automaton Name:F3b
+Control Variable List: x y
+Synchronization Label:
+ press tau
+Parameters:
+
+Initial Location:
+idle, invar:true
+Location List:
+idle, invar:true, rate:true
+relax, invar:true, rate:true
+t, invar:-B > -5, rate:true
+study, invar:true, rate:true
+Edge List:
+ idle t ,guards:true, updates:B = 0 press
+ idle relax ,guards:true, updates:B = 0 press
+ relax idle ,guards:B > 10, updates:true press
+ t study ,guards:true, updates:true press
+ study study ,guards:true, updates:true tau
+ study idle ,guards:true, updates:true press
+End2:
+ffcompo contains
+Automaton Name:F3a~F3b
+Control Variable List: x y
+Synchronization Label:
+ press tau
+Parameters:
+
+Initial Location:
+off~idle, invar:true
+Location List:
+off~idle, invar:true, rate:true
+dim~t, invar:-B > -5, rate:true
+dim~relax, invar:true, rate:true
+off~study, invar:true, rate:true
+bright~study, invar:true, rate:true
+bright~idle, invar:true, rate:true
+dim~idle, invar:true, rate:true
+off~t, invar:-B > -5, rate:true
+off~relax, invar:true, rate:true
+bright~t, invar:-B > -5, rate:true
+bright~relax, invar:true, rate:true
+dim~study, invar:true, rate:true
+Edge List:
+ off~idle dim~t ,guards:true, updates:A = 0, B = 0 press
+ off~idle dim~relax ,guards:true, updates:A = 0, B = 0 press
+ dim~t off~study ,guards:A > 10, updates:true press
+ dim~t bright~study ,guards:-A >= -10, updates:true press
+ dim~relax off~idle ,guards:A > 10, B > 10, updates:true press
+ dim~relax bright~idle ,guards:-A >= -10, B > 10, updates:true press
+ off~study dim~idle ,guards:true, updates:A = 0 press
+ off~study off~study ,guards:true, updates:true tau
+ bright~study off~idle ,guards:true, updates:true press
+ bright~study bright~study ,guards:true, updates:true tau
+ bright~idle off~t ,guards:true, updates:B = 0 press
+ bright~idle off~relax ,guards:true, updates:B = 0 press
+ dim~idle off~t ,guards:A > 10, updates:B = 0 press
+ dim~idle off~relax ,guards:A > 10, updates:B = 0 press
+ dim~idle bright~t ,guards:-A >= -10, updates:B = 0 press
+ dim~idle bright~relax ,guards:-A >= -10, updates:B = 0 press
+ off~t dim~study ,guards:true, updates:A = 0 press
+ off~relax dim~idle ,guards:B > 10, updates:A = 0 press
+ bright~t off~study ,guards:true, updates:true press
+ bright~relax off~idle ,guards:B > 10, updates:true press
+ dim~study off~idle ,guards:A > 10, updates:true press
+ dim~study bright~idle ,guards:-A >= -10, updates:true press
+ dim~study dim~study ,guards:true, updates:true tau
+End2:

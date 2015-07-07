@@ -1,0 +1,24 @@
+hybridautomaton B8
+contr_var: x,y;
+synclabs: a,b,tau;
+loc l0: while x<=3 & y<5 wait {x'==1 & y'==2}
+	when true sync tau do {x'==0} goto l0;
+	when x<2 & y<1 sync a do {x'==2} goto l1;
+loc l1: while true wait {x'<1 & x>0 & y'<2 & y'>1}
+	when x==3 sync b do {x'==2} goto l1;
+	when x>4 sync tau goto l0;
+initially: l0 & x==1 & y==2;
+end
+
+//B8.print;
+
+val:=x<10 & y==4;
+myval:=l1 & val;
+myval.print;
+
+
+autinst:=B8;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+l:=is_reachable_fb(autinst,myval);
+l.print;

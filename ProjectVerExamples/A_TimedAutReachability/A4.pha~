@@ -1,0 +1,36 @@
+timedautomaton A4
+contr_var: x;
+synclabs: a,b,c;
+loc s0: while true
+	when x<5 sync a goto s1;
+	when x<2 sync a goto s2;
+loc s1: while true
+	when true sync b do {x' == 0} goto s0;
+loc s2: while true
+	when true sync c do {x' == 0} goto s0;
+initially: s0;
+end
+
+//A4.print;
+
+val:=true;
+myval:=s2 & val;
+myval.print;
+
+
+autinst:=A4;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+
+
+seventh:=to_Region_Automata(autinst);
+//seventh.print;
+
+l:=is_reachable_by_dfs_fb(seventh,myval);
+
+//l:=is_reachable_by_bfs_fb(seventh,myval);
+
+
+
+l.print;

@@ -1,0 +1,15 @@
+timedautomaton A11
+synclabs: a,b;
+loc s0: while true
+	when true sync a goto s0;
+	when true sync b goto s0;
+initially: s0;
+end
+
+//A11.print;
+
+a11inst:=A11;
+//a11inst.print;
+seventh:=to_Region_Automata(a11inst);
+
+seventh.print;

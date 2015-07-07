@@ -1,0 +1,31 @@
+automaton D3
+synclabs: a,b,d;
+loc s0: while true
+	when true sync a goto s1;
+loc s1: while true
+	when true sync a goto s2;
+loc s2: while true
+	when true sync b goto s1;
+loc s3: while true
+	when true sync d goto s0;
+initially: s0;
+end
+
+//D3.print;
+
+val:=true;
+myval:=s3 & val;
+myval.print;
+
+
+autinst:=D3;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+
+//l:=is_reachable_by_dfs_fb(autinst,myval);
+l:=is_reachable_by_dfs_bk(autinst,myval);
+//l:=is_reachable_by_bfs_fb(autinst,myval);
+//l:=is_reachable_by_bfs_bk(autinst,myval);
+
+l.print;

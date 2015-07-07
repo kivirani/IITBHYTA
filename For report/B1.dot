@@ -1,0 +1,9 @@
+digraph B1 {
+ rankdir=LR;
+ size="8,5"
+0 [label="off\nx <= 20\nx == -1",color=red, style=filled];
+1 [label="on\nx <= 22\nx == 1",color=red, style=filled];
+0 -> 1 [label="tau\nx > 18\n"];
+0 -> 0 [label="tau\nx > 19\n"];
+1 -> 0 [label="tau\nx < 19\n"];
+}

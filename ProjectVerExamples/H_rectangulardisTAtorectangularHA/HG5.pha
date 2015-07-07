@@ -1,0 +1,37 @@
+hybridautomaton G5a
+contr_var: x;
+input_var: y;
+synclabs: a,b;
+loc l0: while x>3 & y>0 wait {x'==-1} 
+	when true sync a goto l0;
+	when true sync a goto l1;
+loc l1: while y>2 wait {x'==1} 
+	when true sync b goto l1;
+	when y>1 sync b goto l0;
+initially: l0 & x==1;
+end
+
+hybridautomaton G5b
+contr_var: y;
+input_var: x;
+synclabs: a,b;
+loc l2: while x>1 & y>=2 & y<4 wait {y'==1}
+	when true sync a goto l2;
+	when x>2 sync a goto l3;
+loc l3: while x>1 & x<3 wait {y'==1}
+	when true sync b goto l3;
+	when y>1 sync b do {y'==3} goto l2;
+initially: l2 & y==2;
+end
+
+
+//G5a.print;
+//G5b.print;
+
+three.add_aut(G5a);
+three.add_aut(G5b);
+//three.print;
+
+sixth:=to_ICTA(three);
+sixth.print;
+

@@ -1,0 +1,23 @@
+timedautomaton A3
+contr_var: x,y;
+synclabs: a,b;
+loc s0: while true
+	when x==1 sync a do {x' == 0} goto s1;
+loc s1: while true
+	when true sync b do {y' == 0} goto s2;
+loc s2: while true
+	when x < 1 sync a do {x' == 0} goto s3;
+	when x > 1 sync a do {x' == 0} goto s3;
+loc s3: while true
+	when y<1 sync b do {y' == 0} goto s2;
+initially: s0 & x==0 & y==0;
+end
+
+//A3.print;
+
+a3inst:=A3;
+//a3inst.print;
+seventh:=to_Region_Automata(a3inst);
+
+seventh.print;
+

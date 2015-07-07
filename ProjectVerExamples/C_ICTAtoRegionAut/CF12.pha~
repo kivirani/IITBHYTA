@@ -1,0 +1,69 @@
+timedautomaton Ap
+contr_var: x;
+synclabs: a;
+loc s0: while true
+	when y<=1 sync a goto s1;
+loc s1: while true
+	when true sync a do {x'==0} goto s2;
+loc s2: while true
+	when true sync a goto s2;
+initially: s0 & x==0;
+end
+
+
+timedautomaton Aq
+contr_var: y;
+synclabs: b;
+loc r0: while true
+	when x>=1 sync b goto r1;
+loc r1: while y<=1
+	when x>0 & x<1 sync b goto r2;
+loc r2: while true
+	//when true sync b goto r2;
+initially: r0 & y==0;
+end
+
+
+
+Ap.to_dot;
+Aq.to_dot;
+
+
+
+//Ap.print;
+//Aq.print;
+
+three.add_aut(Ap);
+three.add_aut(Aq);
+
+//three.print;
+
+sixth:=to_ICTA(three);
+
+sixth.to_dot;
+
+//sixth.print;
+
+eightth:=hybrid_flavoured_timed_aut_to_timed_aut(sixth);
+
+//eightth.print;
+eightth.to_dot;
+
+seventh:=to_Region_Automata(eightth);
+
+//seventh.print;
+
+seventh.to_dot;
+
+vval:=true;
+
+
+
+state:=s2~r2 & vval;
+
+state.print;
+
+l:=is_reachable_by_dfs_fb(seventh,state);
+
+l.print;
+

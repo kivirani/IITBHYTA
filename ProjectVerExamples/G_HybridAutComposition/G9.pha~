@@ -1,0 +1,38 @@
+hybridautomaton G9a
+contr_var: x,y;
+input_var: z;
+synclabs: a,b;
+loc l0: while x>-3 & x<5 & y>-2 & y<4 & z>=0 & z<3 wait {x'==1 & y'==1} 
+	when true sync a goto l0;
+	when z>1 sync a goto l1;
+loc l1: while x>3 & x<5 & y>2 & y<4 & z>1 & z<3 wait {x'==1 & y'==1} 
+	when true sync b goto l1;
+	when x<3 sync b goto l0;
+initially: l0 & x==0 & y==0;
+end
+
+hybridautomaton G9b
+contr_var: z;
+input_var: x,y;
+synclabs: a,b;
+loc l2: while z>-1 & z<3 & y>=0 & y<3 wait {z'==2}
+	when true sync a goto l2;
+	when y>3 sync a goto l3;
+loc l3: while z>1 & z<3 & y>3 & y<5 wait {y'==-2}
+	when true sync b goto l3;
+	when x>3 sync b goto l2;
+initially: l2 & z==0;
+end
+
+//G9a.print;
+//G9b.print;
+
+
+three.add_aut(G9a);
+three.add_aut(G9b);
+//three.print;
+
+fourth:=take_composition(three);
+
+fourth.print;
+

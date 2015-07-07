@@ -1,0 +1,14 @@
+digraph G2a {
+ rankdir=LR;
+ size="8,5"
+0 [label="s1\ntrue\n",color=red, style=filled];
+1 [label="s2\nx <= 5\nx == 1",color=red, style=filled];
+2 [label="s3\ntrue\nx == 1",color=red, style=filled];
+3 [label="s4\ntrue\n",color=red, style=filled];
+0 -> 1 [label="tau1\nk == 0\nx == 0"];
+1 -> 2 [label="tau1\ntrue\nk == 1 & x == 0"];
+2 -> 0 [label="tau1\nx >= 10 & k > 1\n"];
+2 -> 0 [label="tau1\nx >= 10 & k < 1\n"];
+2 -> 3 [label="tau1\nx >= 10 & k == 1\n"];
+3 -> 0 [label="tau1\ntrue\nk == 0"];
+}

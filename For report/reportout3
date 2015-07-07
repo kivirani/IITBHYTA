@@ -1,0 +1,118 @@
+Automaton Name:G2a
+Control Variable List: k x y
+Synchronization Label:
+ tau1
+Parameters:
+
+Initial Location:
+s1, invar:A = 0
+Location List:
+s1, invar:true, rate:true
+s2, invar:-B >= -5, rate:B = 1
+s3, invar:true, rate:B = 1
+s4, invar:true, rate:true
+Edge List:
+ s1 s2 ,guards:A = 0, updates:B = 0 tau1
+ s2 s3 ,guards:true, updates:A = 1, B = 0 tau1
+ s3 s1 ,guards:B >= 10, A > 1, updates:true tau1
+ s3 s1 ,guards:B >= 10, -A > -1, updates:true tau1
+ s3 s4 ,guards:B >= 10, A = 1, updates:true tau1
+ s4 s1 ,guards:true, updates:A = 0 tau1
+End2:
+Automaton Name:G2b
+Control Variable List: k x y
+Synchronization Label:
+ tau2
+Parameters:
+
+Initial Location:
+A, invar:A = 0
+Location List:
+A, invar:true, rate:true
+B, invar:-C >= -5, rate:C = 1
+C, invar:true, rate:C = 1
+D, invar:true, rate:true
+Edge List:
+ A B ,guards:A = 0, updates:C = 0 tau2
+ B C ,guards:true, updates:A = 2, C = 0 tau2
+ C A ,guards:C >= 10, A > 2, updates:true tau2
+ C A ,guards:C >= 10, -A > -2, updates:true tau2
+ C D ,guards:C >= 10, A = 2, updates:true tau2
+ D A ,guards:true, updates:A = 0 tau2
+End2:
+fourth contains
+Automaton Name:G2a~G2b
+Control Variable List: k x y
+Synchronization Label:
+ tau1 tau2
+Parameters:
+
+Initial Location:
+s1~A, invar:A = 0, A = 0
+Location List:
+s1~A, invar:true, rate:true
+s2~A, invar:-B >= -5, rate:B = 1
+s1~B, invar:-C >= -5, rate:C = 1
+s3~A, invar:true, rate:B = 1
+s2~B, invar:-B >= -5, -C >= -5, rate:B = 1, C = 1
+s1~C, invar:true, rate:C = 1
+s4~A, invar:true, rate:true
+s3~B, invar:-C >= -5, rate:B = 1, C = 1
+s2~C, invar:-B >= -5, rate:B = 1, C = 1
+s1~D, invar:true, rate:true
+s4~B, invar:-C >= -5, rate:C = 1
+s3~C, invar:true, rate:B = 1, C = 1
+s2~D, invar:-B >= -5, rate:B = 1
+s4~C, invar:true, rate:C = 1
+s3~D, invar:true, rate:B = 1
+s4~D, invar:true, rate:true
+Edge List:
+ s1~A s2~A ,guards:A = 0, updates:B = 0 tau1
+ s1~A s1~B ,guards:A = 0, updates:C = 0 tau2
+ s2~A s3~A ,guards:true, updates:A = 1, B = 0 tau1
+ s2~A s2~B ,guards:A = 0, updates:C = 0 tau2
+ s1~B s2~B ,guards:A = 0, updates:B = 0 tau1
+ s1~B s1~C ,guards:true, updates:A = 2, C = 0 tau2
+ s3~A s1~A ,guards:B >= 10, A > 1, updates:true tau1
+ s3~A s1~A ,guards:B >= 10, -A > -1, updates:true tau1
+ s3~A s4~A ,guards:B >= 10, A = 1, updates:true tau1
+ s3~A s3~B ,guards:A = 0, updates:C = 0 tau2
+ s2~B s3~B ,guards:true, updates:A = 1, B = 0 tau1
+ s2~B s2~C ,guards:true, updates:A = 2, C = 0 tau2
+ s1~C s2~C ,guards:A = 0, updates:B = 0 tau1
+ s1~C s1~A ,guards:C >= 10, A > 2, updates:true tau2
+ s1~C s1~A ,guards:C >= 10, -A > -2, updates:true tau2
+ s1~C s1~D ,guards:C >= 10, A = 2, updates:true tau2
+ s4~A s1~A ,guards:true, updates:A = 0 tau1
+ s4~A s4~B ,guards:A = 0, updates:C = 0 tau2
+ s3~B s1~B ,guards:B >= 10, A > 1, updates:true tau1
+ s3~B s1~B ,guards:B >= 10, -A > -1, updates:true tau1
+ s3~B s4~B ,guards:B >= 10, A = 1, updates:true tau1
+ s3~B s3~C ,guards:true, updates:A = 2, C = 0 tau2
+ s2~C s3~C ,guards:true, updates:A = 1, B = 0 tau1
+ s2~C s2~A ,guards:C >= 10, A > 2, updates:true tau2
+ s2~C s2~A ,guards:C >= 10, -A > -2, updates:true tau2
+ s2~C s2~D ,guards:C >= 10, A = 2, updates:true tau2
+ s1~D s2~D ,guards:A = 0, updates:B = 0 tau1
+ s1~D s1~A ,guards:true, updates:A = 0 tau2
+ s4~B s1~B ,guards:true, updates:A = 0 tau1
+ s4~B s4~C ,guards:true, updates:A = 2, C = 0 tau2
+ s3~C s1~C ,guards:B >= 10, A > 1, updates:true tau1
+ s3~C s1~C ,guards:B >= 10, -A > -1, updates:true tau1
+ s3~C s4~C ,guards:B >= 10, A = 1, updates:true tau1
+ s3~C s3~A ,guards:C >= 10, A > 2, updates:true tau2
+ s3~C s3~A ,guards:C >= 10, -A > -2, updates:true tau2
+ s3~C s3~D ,guards:C >= 10, A = 2, updates:true tau2
+ s2~D s3~D ,guards:true, updates:A = 1, B = 0 tau1
+ s2~D s2~A ,guards:true, updates:A = 0 tau2
+ s4~C s1~C ,guards:true, updates:A = 0 tau1
+ s4~C s4~A ,guards:C >= 10, A > 2, updates:true tau2
+ s4~C s4~A ,guards:C >= 10, -A > -2, updates:true tau2
+ s4~C s4~D ,guards:C >= 10, A = 2, updates:true tau2
+ s3~D s1~D ,guards:B >= 10, A > 1, updates:true tau1
+ s3~D s1~D ,guards:B >= 10, -A > -1, updates:true tau1
+ s3~D s4~D ,guards:B >= 10, A = 1, updates:true tau1
+ s3~D s3~A ,guards:true, updates:A = 0 tau2
+ s4~D s1~D ,guards:true, updates:A = 0 tau1
+ s4~D s4~A ,guards:true, updates:A = 0 tau2
+End2:

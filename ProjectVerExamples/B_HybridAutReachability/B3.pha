@@ -1,0 +1,29 @@
+hybridautomaton B3
+contr_var: x1,x2,threta;
+synclabs: tau;
+loc s0: while threta<=50 wait {x1'==1 & x2'==1 & threta'==2}
+	when threta==50 & x1>=20 sync tau goto s1;
+	when threta==50 & x2>=20 sync tau goto s2;
+	when threta==50 & x1<20 & x2<20 sync tau goto s3;
+loc s1: while threta>=10 wait {x1'==1 & x2'==1 & threta'==-4}
+	when threta==10 sync tau do {x1'==0} goto s0;
+loc s2: while threta>=10 wait {x1'==1 & x2'==1 & threta'==-5}
+	when threta==10 sync tau do {x2'==0} goto s0;
+loc s3: while true
+initially: s0 & x1==20 & x2==20 & threta>=-100 & threta<=100;
+end
+
+//B3.print;
+
+
+val:=x1==95;
+myval:=s0 & val;
+myval.print;
+
+
+autinst:=B3;
+//l:=is_reachable(autinst,myval);
+l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+l.print;
+

@@ -1,0 +1,18 @@
+timedautomaton A2
+contr_var: x;
+synclabs: a,b;
+loc s0: while x <= 4
+	when x<3 sync a goto s0;
+	when x<3 sync b goto s0;
+	when x==3 sync a goto s0; 
+initially: s0;
+end
+
+//A2.print;
+
+a2inst:=A2;
+//a2inst.print;
+seventh:=to_Region_Automata(a2inst);
+
+seventh.print;
+

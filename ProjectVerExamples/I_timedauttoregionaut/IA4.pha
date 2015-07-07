@@ -1,0 +1,21 @@
+timedautomaton A4
+contr_var: x;
+synclabs: a,b,c;
+loc s0: while true
+	when x<5 sync a goto s1;
+	when x<2 sync a goto s2;
+loc s1: while true
+	when true sync b do {x' == 0} goto s0;
+loc s2: while true
+	when true sync c do {x' == 0} goto s0;
+initially: s0 & x==0;
+end
+
+//A4.print;
+
+a4inst:=A4;
+//a4inst.print;
+seventh:=to_Region_Automata(a4inst);
+
+seventh.print;
+

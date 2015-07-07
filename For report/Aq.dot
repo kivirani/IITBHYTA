@@ -1,0 +1,9 @@
+digraph Aq {
+ rankdir=LR;
+ size="8,5"
+0 [label="r0\ntrue\n",color=red, style=filled];
+1 [label="r1\ny <= 1\n",color=red, style=filled];
+2 [label="r2\ntrue\n",color=red, style=filled];
+0 -> 1 [label="b\nx >= 1\n"];
+1 -> 2 [label="b\nx > 0 & x < 1\n"];
+}

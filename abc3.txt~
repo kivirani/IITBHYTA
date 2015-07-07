@@ -1,0 +1,146 @@
+seventh contains
+Automaton Name:A6region
+Control Variable List: x y
+Synchronization Label:
+ a b c d
+Parameters:
+
+Initial Location:
+s0,B = 0, A = 0, invar:true
+Location List:
+s0,B = 0, A = 0, invar:true, rate:true
+s0,A - B = 0, -A > -1, A > 0, invar:true, rate:true
+s1,B = 0, A = 0, invar:true, rate:true
+s0,B = 1, A = 1, invar:true, rate:true
+s1,A = 0, B > 0, -B > -1, invar:true, rate:true
+s1,A - B = 0, -A > -1, A > 0, invar:true, rate:true
+s2,B = 0, A = 0, invar:true, rate:true
+s0,-B > -2, A > 1, B > 1, invar:true, rate:true
+s1,B = 1, A = 0, invar:true, rate:true
+s1,A > 0, -A + B > 0, -B > -1, invar:true, rate:true
+s1,B = 1, A = 1, invar:true, rate:true
+s2,B = 0, -A > -1, A > 0, invar:true, rate:true
+s2,A - B = 0, -A > -1, A > 0, invar:true, rate:true
+s3,B = 0, A = 0, invar:true, rate:true
+s0,B = 2, A > 1, invar:true, rate:true
+s1,A = 0, B > 1, -B > -2, invar:true, rate:true
+s1,A - B = -1, -A > -1, A > 0, invar:true, rate:true
+s1,B = 1, -A > -1, A > 0, invar:true, rate:true
+s1,-B > -2, A > 1, B > 1, invar:true, rate:true
+s2,B = 0, A = 1, invar:true, rate:true
+s2,-A > -1, A - B > 0, B > 0, invar:true, rate:true
+s3,B = 0, -A > -1, A > 0, invar:true, rate:true
+s2,B = 1, A = 1, invar:true, rate:true
+s3,A - B = 0, -A > -1, A > 0, invar:true, rate:true
+s0,B > 2, A > 1, invar:true, rate:true
+s1,B = 2, A = 0, invar:true, rate:true
+s1,A > 0, -A + B > 1, -B > -2, invar:true, rate:true
+s1,B = 2, A = 1, invar:true, rate:true
+s1,-A > -1, A - B > -1, B > 1, invar:true, rate:true
+s1,B = 2, A > 1, invar:true, rate:true
+s2,B = 0, A > 1, invar:true, rate:true
+s2,-B > -1, A > 1, B > 0, invar:true, rate:true
+s2,A = 1, B > 0, -B > -1, invar:true, rate:true
+s3,-A > -1, A - B > 0, B > 0, invar:true, rate:true
+s2,-B > -2, A > 1, B > 1, invar:true, rate:true
+s3,B = 1, A = 1, invar:true, rate:true
+s1,A = 0, B > 2, invar:true, rate:true
+s1,-A > -1, A > 0, B > 2, invar:true, rate:true
+s1,B = 2, -A > -1, A > 0, invar:true, rate:true
+s1,B > 2, A > 1, invar:true, rate:true
+s1,A = 1, B > 1, -B > -2, invar:true, rate:true
+s2,B = 1, A > 1, invar:true, rate:true
+s3,A = 1, B > 0, -B > -1, invar:true, rate:true
+s2,B = 2, A > 1, invar:true, rate:true
+s3,-B > -2, A > 1, B > 1, invar:true, rate:true
+s1,A = 1, B > 2, invar:true, rate:true
+s3,-B > -1, A > 1, B > 0, invar:true, rate:true
+s2,B > 2, A > 1, invar:true, rate:true
+s3,B = 2, A > 1, invar:true, rate:true
+s3,B = 1, A > 1, invar:true, rate:true
+s3,B > 2, A > 1, invar:true, rate:true
+Edge List:
+ s0,B = 0, A = 0 s0,A - B = 0, -A > -1, A > 0 ,guards:true, updates:true 
+ s0,B = 0, A = 0 s1,B = 0, A = 0 ,guards:true, updates:true a
+ s0,A - B = 0, -A > -1, A > 0 s0,B = 1, A = 1 ,guards:true, updates:true 
+ s0,A - B = 0, -A > -1, A > 0 s1,A = 0, B > 0, -B > -1 ,guards:true, updates:true a
+ s1,B = 0, A = 0 s1,A - B = 0, -A > -1, A > 0 ,guards:true, updates:true 
+ s1,B = 0, A = 0 s2,B = 0, A = 0 ,guards:true, updates:true b
+ s0,B = 1, A = 1 s0,-B > -2, A > 1, B > 1 ,guards:true, updates:true 
+ s0,B = 1, A = 1 s1,B = 1, A = 0 ,guards:true, updates:true a
+ s1,A = 0, B > 0, -B > -1 s1,A > 0, -A + B > 0, -B > -1 ,guards:true, updates:true 
+ s1,A = 0, B > 0, -B > -1 s2,B = 0, A = 0 ,guards:true, updates:true b
+ s1,A - B = 0, -A > -1, A > 0 s1,B = 1, A = 1 ,guards:true, updates:true 
+ s1,A - B = 0, -A > -1, A > 0 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s2,B = 0, A = 0 s2,A - B = 0, -A > -1, A > 0 ,guards:true, updates:true 
+ s2,B = 0, A = 0 s3,B = 0, A = 0 ,guards:true, updates:true c
+ s0,-B > -2, A > 1, B > 1 s0,B = 2, A > 1 ,guards:true, updates:true 
+ s0,-B > -2, A > 1, B > 1 s1,A = 0, B > 1, -B > -2 ,guards:true, updates:true a
+ s1,B = 1, A = 0 s1,A - B = -1, -A > -1, A > 0 ,guards:true, updates:true 
+ s1,B = 1, A = 0 s2,B = 0, A = 0 ,guards:true, updates:true b
+ s1,A > 0, -A + B > 0, -B > -1 s1,B = 1, -A > -1, A > 0 ,guards:true, updates:true 
+ s1,A > 0, -A + B > 0, -B > -1 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s1,B = 1, A = 1 s1,-B > -2, A > 1, B > 1 ,guards:true, updates:true 
+ s1,B = 1, A = 1 s2,B = 0, A = 1 ,guards:true, updates:true b
+ s2,B = 0, -A > -1, A > 0 s2,-A > -1, A - B > 0, B > 0 ,guards:true, updates:true 
+ s2,B = 0, -A > -1, A > 0 s3,B = 0, -A > -1, A > 0 ,guards:true, updates:true c
+ s2,A - B = 0, -A > -1, A > 0 s2,B = 1, A = 1 ,guards:true, updates:true 
+ s2,A - B = 0, -A > -1, A > 0 s3,A - B = 0, -A > -1, A > 0 ,guards:true, updates:true c
+ s3,B = 0, A = 0 s3,A - B = 0, -A > -1, A > 0 ,guards:true, updates:true 
+ s0,B = 2, A > 1 s0,B > 2, A > 1 ,guards:true, updates:true 
+ s0,B = 2, A > 1 s1,B = 2, A = 0 ,guards:true, updates:true a
+ s1,A = 0, B > 1, -B > -2 s1,A > 0, -A + B > 1, -B > -2 ,guards:true, updates:true 
+ s1,A = 0, B > 1, -B > -2 s2,B = 0, A = 0 ,guards:true, updates:true b
+ s1,A - B = -1, -A > -1, A > 0 s1,B = 2, A = 1 ,guards:true, updates:true 
+ s1,A - B = -1, -A > -1, A > 0 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s1,B = 1, -A > -1, A > 0 s1,-A > -1, A - B > -1, B > 1 ,guards:true, updates:true 
+ s1,B = 1, -A > -1, A > 0 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s1,-B > -2, A > 1, B > 1 s1,B = 2, A > 1 ,guards:true, updates:true 
+ s1,-B > -2, A > 1, B > 1 s2,B = 0, A > 1 ,guards:true, updates:true b
+ s2,B = 0, A = 1 s2,-B > -1, A > 1, B > 0 ,guards:true, updates:true 
+ s2,-A > -1, A - B > 0, B > 0 s2,A = 1, B > 0, -B > -1 ,guards:true, updates:true 
+ s2,-A > -1, A - B > 0, B > 0 s3,-A > -1, A - B > 0, B > 0 ,guards:true, updates:true c
+ s3,B = 0, -A > -1, A > 0 s3,-A > -1, A - B > 0, B > 0 ,guards:true, updates:true 
+ s2,B = 1, A = 1 s2,-B > -2, A > 1, B > 1 ,guards:true, updates:true 
+ s3,A - B = 0, -A > -1, A > 0 s3,B = 1, A = 1 ,guards:true, updates:true 
+ s0,B > 2, A > 1 s0,B > 2, A > 1 ,guards:true, updates:true 
+ s0,B > 2, A > 1 s1,A = 0, B > 2 ,guards:true, updates:true a
+ s1,B = 2, A = 0 s1,-A > -1, A > 0, B > 2 ,guards:true, updates:true 
+ s1,B = 2, A = 0 s2,B = 0, A = 0 ,guards:true, updates:true b
+ s1,A > 0, -A + B > 1, -B > -2 s1,B = 2, -A > -1, A > 0 ,guards:true, updates:true 
+ s1,A > 0, -A + B > 1, -B > -2 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s1,B = 2, A = 1 s1,B > 2, A > 1 ,guards:true, updates:true 
+ s1,B = 2, A = 1 s2,B = 0, A = 1 ,guards:true, updates:true b
+ s1,-A > -1, A - B > -1, B > 1 s1,A = 1, B > 1, -B > -2 ,guards:true, updates:true 
+ s1,-A > -1, A - B > -1, B > 1 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s1,B = 2, A > 1 s1,B > 2, A > 1 ,guards:true, updates:true 
+ s1,B = 2, A > 1 s2,B = 0, A > 1 ,guards:true, updates:true b
+ s2,B = 0, A > 1 s2,-B > -1, A > 1, B > 0 ,guards:true, updates:true 
+ s2,-B > -1, A > 1, B > 0 s2,B = 1, A > 1 ,guards:true, updates:true 
+ s2,A = 1, B > 0, -B > -1 s2,-B > -1, A > 1, B > 0 ,guards:true, updates:true 
+ s3,-A > -1, A - B > 0, B > 0 s3,A = 1, B > 0, -B > -1 ,guards:true, updates:true 
+ s2,-B > -2, A > 1, B > 1 s2,B = 2, A > 1 ,guards:true, updates:true 
+ s3,B = 1, A = 1 s3,-B > -2, A > 1, B > 1 ,guards:true, updates:true 
+ s1,A = 0, B > 2 s1,-A > -1, A > 0, B > 2 ,guards:true, updates:true 
+ s1,A = 0, B > 2 s2,B = 0, A = 0 ,guards:true, updates:true b
+ s1,-A > -1, A > 0, B > 2 s1,A = 1, B > 2 ,guards:true, updates:true 
+ s1,-A > -1, A > 0, B > 2 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s1,B = 2, -A > -1, A > 0 s1,-A > -1, A > 0, B > 2 ,guards:true, updates:true 
+ s1,B = 2, -A > -1, A > 0 s2,B = 0, -A > -1, A > 0 ,guards:true, updates:true b
+ s1,B > 2, A > 1 s1,B > 2, A > 1 ,guards:true, updates:true 
+ s1,B > 2, A > 1 s2,B = 0, A > 1 ,guards:true, updates:true b
+ s1,A = 1, B > 1, -B > -2 s1,-B > -2, A > 1, B > 1 ,guards:true, updates:true 
+ s1,A = 1, B > 1, -B > -2 s2,B = 0, A = 1 ,guards:true, updates:true b
+ s2,B = 1, A > 1 s2,-B > -2, A > 1, B > 1 ,guards:true, updates:true 
+ s3,A = 1, B > 0, -B > -1 s3,-B > -1, A > 1, B > 0 ,guards:true, updates:true 
+ s2,B = 2, A > 1 s2,B > 2, A > 1 ,guards:true, updates:true 
+ s3,-B > -2, A > 1, B > 1 s3,B = 2, A > 1 ,guards:true, updates:true 
+ s1,A = 1, B > 2 s1,B > 2, A > 1 ,guards:true, updates:true 
+ s1,A = 1, B > 2 s2,B = 0, A = 1 ,guards:true, updates:true b
+ s3,-B > -1, A > 1, B > 0 s3,B = 1, A > 1 ,guards:true, updates:true 
+ s2,B > 2, A > 1 s2,B > 2, A > 1 ,guards:true, updates:true 
+ s3,B = 2, A > 1 s3,B > 2, A > 1 ,guards:true, updates:true 
+ s3,B = 1, A > 1 s3,-B > -2, A > 1, B > 1 ,guards:true, updates:true 
+ s3,B > 2, A > 1 s3,B > 2, A > 1 ,guards:true, updates:true 
+ s3,B > 2, A > 1 s0,B > 2, A > 1 ,guards:true, updates:true d
+End2:

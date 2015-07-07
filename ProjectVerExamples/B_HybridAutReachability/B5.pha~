@@ -1,0 +1,24 @@
+hybridautomaton B5
+contr_var: x;
+synclabs: tau;
+loc l1: while x>=5 wait {x'==-1}
+	when x<6 sync tau do {x'==0} goto l2;
+loc l2: while x<=10 wait {x'==2}
+	when x==10 sync tau goto l1;
+initially: l1 & x>=2 & x<=5;
+end
+
+//B5.print;
+
+
+val:=x==10;
+myval:=l2 & val;
+myval.print;
+
+
+autinst:=B5;
+//l:=is_reachable(autinst,myval);
+l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+l.print;
+

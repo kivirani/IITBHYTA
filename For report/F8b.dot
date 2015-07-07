@@ -1,0 +1,8 @@
+digraph F8b {
+ rankdir=LR;
+ size="8,5"
+0 [label="s2\ntrue\n",color=red, style=filled];
+1 [label="s3\ntrue\n",color=red, style=filled];
+0 -> 1 [label="b\nx > 3\n"];
+1 -> 0 [label="c\ny > 3\n"];
+}

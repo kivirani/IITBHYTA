@@ -1,0 +1,10 @@
+digraph Ap {
+ rankdir=LR;
+ size="8,5"
+0 [label="s0\ntrue\n",color=red, style=filled];
+1 [label="s1\ntrue\n",color=red, style=filled];
+2 [label="s2\ntrue\n",color=red, style=filled];
+0 -> 1 [label="a\ny <= 1\n"];
+1 -> 2 [label="a\ntrue\nx == 0"];
+2 -> 2 [label="a\ntrue\n"];
+}

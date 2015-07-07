@@ -1,0 +1,6 @@
+digraph A11p {
+ rankdir=LR;
+ size="8,5"
+0 [label="s0\nx <= 1\n",color=red, style=filled];
+0 -> 0 [label="a\nx == 1\nx == 0"];
+}

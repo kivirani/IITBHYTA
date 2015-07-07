@@ -1,0 +1,27 @@
+hybridautomaton bouncing_ball
+contr_var: x, v, t;
+synclabs: jump;
+loc state: while x>=0 & x<=10 & v<=10 & v>=-10 & t<=5 & t>=0 wait {x'==v & v'==-2 & t'==1}
+	when x==0 & v<0 sync jump do {v'==-v*0.5 & x'==x & t'==t} goto state;
+initially: state & x==2 & v==0 & t==0;
+end
+
+
+//bouncing_ball.print;
+
+
+
+//v'==-g where g=2
+
+
+
+val:=x<10;
+myval:=state & val;
+myval.print;
+
+
+autinst:=bouncing_ball;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+l:=is_reachable_fb(autinst,myval);
+l.print;

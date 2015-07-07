@@ -1,0 +1,70 @@
+timedautomaton F2a
+contr_var: x;
+synclabs: in,out,exit,approach,id1;
+loc s00: while true
+	when true sync id1 goto s00;
+	when true sync approach do {x' == 0} goto s01;
+loc s01: while true
+	when x>2 sync in goto s02;
+loc s02: while true
+	when true sync out goto s03;
+loc s03: while true
+	when x<5 sync exit goto s00;
+initially: s00;
+end
+
+timedautomaton F2b
+contr_var: x;
+synclabs: in,out,exit,approach,id2;
+loc s10: while true
+	when true sync id2 goto s10;
+	when true sync approach do {x' == 0} goto s11;
+loc s11: while true
+	when x>2 sync in goto s12;
+loc s12: while true
+	when true sync out goto s13;
+loc s13: while true
+	when x<5 sync exit goto s10;
+initially: s10;
+end
+
+
+
+timedautomaton F2c
+contr_var: y;
+synclabs: lower,down,raise,up,id1,id2;
+loc t0: while true
+	when true sync id1 goto t0;
+	when true sync id2 goto t0;
+	when true sync lower do {y' == 0} goto t1;
+loc t1: while true
+	when y<1 sync down goto t2;
+loc t2: while true
+	when true sync id1 goto t2;
+	when true sync id2 goto t2;
+	when true sync raise do {y'==0} goto t3;
+loc t3: while true
+	when y>1 & y<2 sync up goto t0;
+initially: t0;
+end
+
+timedautomaton F2d
+contr_var: z;
+synclabs: approach,lower,exit,raise,id1,id2;
+loc u0: while true
+	when true sync id1 goto u0;
+	when true sync id2 goto u0;
+	when true sync approach do {z' == 0} goto u1;
+loc u1: while true
+	when z==1 sync lower goto u2;
+loc u2: while true
+	when true sync exit do {z'==0} goto u3;
+loc u3: while true
+	when z<1 sync raise goto u0;
+initially: u0;
+end
+
+//F2a.print;
+//F2b.print;
+//F2c.print;
+F2d.print;

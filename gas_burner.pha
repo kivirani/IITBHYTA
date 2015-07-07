@@ -1,0 +1,9 @@
+automaton gas_burner
+contr_var: x,y,t;
+synclabs: a,b;
+loc l1: while x <= 1 wait {t' == 1 & x' == 1 & y' == 1}
+	when x>=0 sync b do {x' == 0} goto l2;
+loc l2: while x >= 0 wait {t' == 0 & x' == 1 & y' == 1}
+	when x >= 30 sync a do {x' == 0} goto l1;
+initially:l1 & x==0 & t==0;
+end

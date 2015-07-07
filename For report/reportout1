@@ -1,0 +1,50 @@
+G2a contains
+
+Automaton Name:G2a
+Control Variable List:
+x,k,
+Parameter List:
+
+Synchronizing Label List:
+tau1,
+Input Variable List:
+
+Location List:
+s1 true,      rates:
+s2 x <= 5,      rates:x == 1,
+s3 true,      rates:x == 1,
+s4 true,      rates:
+Initial Location List:
+s1 invariants:k == 0,
+Edge List:
+s1 s2 tau1 k == 0,      updates:x == 0,
+s2 s3 tau1 true,      updates:k == 1,x == 0,
+s3 s1 tau1 x >= 10,k > 1,      updates:
+s3 s1 tau1 x >= 10,k < 1,      updates:
+s3 s4 tau1 x >= 10,k == 1,      updates:
+s4 s1 tau1 true,      updates:k == 0,
+G2b contains
+
+Automaton Name:G2b
+Control Variable List:
+y,k,
+Parameter List:
+
+Synchronizing Label List:
+tau2,
+Input Variable List:
+
+Location List:
+A true,      rates:
+B y <= 5,      rates:y == 1.1,
+C true,      rates:y == 1.1,
+D true,      rates:
+Initial Location List:
+A invariants:k == 0,
+Edge List:
+A B tau2 k == 0,      updates:y == 0,
+B C tau2 true,      updates:k == 2,y == 0,
+C A tau2 y >= 10,k > 2,      updates:
+C A tau2 y >= 10,k < 2,      updates:
+C D tau2 y >= 10,k == 2,      updates:
+D A tau2 true,      updates:k == 0,

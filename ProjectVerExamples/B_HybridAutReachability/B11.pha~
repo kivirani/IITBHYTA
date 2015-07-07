@@ -1,0 +1,20 @@
+hybridautomaton B11
+synclabs: tau;
+loc l0: while true
+	when true sync tau goto l0;
+initially: l0;
+end
+
+//B11.print;
+
+val:=true;
+myval:=l0 & val;
+myval.print;
+
+
+autinst:=B11;
+//l:=is_reachable(autinst,myval);
+l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+l.print;
+

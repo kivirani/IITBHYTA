@@ -1,0 +1,27 @@
+digraph eightth {
+ rankdir=LR;
+ size="8,5"
+0 [label="s0~r0,phi\ntrue\ntrue",color=red, style=filled];
+1 [label="s1~r1,a,b\ntrue\ntrue",color=red, style=filled];
+2 [label="s1~r0,a\ntrue\ntrue",color=red, style=filled];
+3 [label="s1~r0,phi\ntrue\ntrue",color=red, style=filled];
+4 [label="s0~r1,b\ntrue\ntrue",color=red, style=filled];
+5 [label="s0~r1,phi\ntrue\ntrue",color=red, style=filled];
+6 [label="s1~r1,phi\ntrue\ntrue",color=red, style=filled];
+
+16 [label="s1~r1,b\ntrue\ntrue",color=red, style=filled];
+
+18 [label="s1~r1,a\ntrue\ntrue",color=red, style=filled];
+
+0 -> 1 [label="\n-B >= -1, A >= 1\nC = 0"];
+1 -> 16 [label="a\n-B >= -1, -C >= 0\ntrue"];
+1 -> 18 [label="b\n-B >= -1, -C >= 0\ntrue"];
+0 -> 2 [label="\n-B >= -1\nC = 0"];
+2 -> 3 [label="a\nB = 0, -C >= 0\ntrue"];
+0 -> 4 [label="\nA >= 1\nC = 0"];
+4 -> 5 [label="b\nA = 0, -B >= -1, -C >= 0\ntrue"];
+3 -> 16 [label="\nB = 0, A >= 1\nC = 0"];
+16 -> 6 [label="b\n-B >= -1, -C >= 0\ntrue"];
+5 -> 18 [label="\nA = 0, -B >= -1\nC = 0"];
+18 -> 6 [label="a\n-B >= -1, -C >= 0\ntrue"];
+}

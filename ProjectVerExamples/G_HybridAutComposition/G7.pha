@@ -1,0 +1,19 @@
+hybridautomaton G7a
+synclabs: tau1;
+loc l0: while true
+	when true sync tau1 goto l0;
+initially: l0;
+end
+
+hybridautomaton G7b
+synclabs: tau2;
+loc l1: while true
+	when true sync tau2 goto l1;
+initially: l1;
+end
+
+//G7a.print;
+//G7b.print;
+
+threeinst:=G7a & G7b;
+threeinst.print;

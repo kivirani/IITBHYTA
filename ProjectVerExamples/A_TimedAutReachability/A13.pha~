@@ -1,0 +1,35 @@
+timedautomaton A13
+contr_var: x,y;
+synclabs: tau;
+loc s0: while x<3 & y<4
+	when true sync tau goto s1;
+	when x>2 & y>2 sync tau goto s1;
+loc s1: while x<3 & y<2
+	when x>3 sync tau do {x' == 0} goto s0;
+	when true sync tau do {x' == 0 & y' == 0} goto s0;
+initially: s0;
+end
+
+//A13.print;
+
+val:=true;
+myval:=s1 & val;
+myval.print;
+
+
+autinst:=A13;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+
+seventh:=to_Region_Automata(autinst);
+//seventh.print;
+
+l:=is_reachable_by_dfs_fb(seventh,myval);
+
+//l:=is_reachable_by_bfs_fb(seventh,myval);
+
+
+
+
+l.print;

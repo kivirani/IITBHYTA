@@ -1,0 +1,5 @@
+rm y.tab.* lex.yy.* abc.txt a.out
+
+flex newlex.l
+yacc -d newyacc.y
+g++ lex.yy.c y.tab.c -lgmp -lppl -ll

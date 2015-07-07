@@ -1,0 +1,38 @@
+timedautomaton F6a
+contr_var: x;
+input_var: y;
+synclabs: a,b;
+loc s1: while true
+	when y<2 sync a goto s2;
+	when y>2 sync a goto s2;
+loc s2: while true
+	when x<3 sync b goto s1;
+initially: s1;
+end
+
+timedautomaton F6b
+contr_var: y;
+input_var: x;
+synclabs: a,b;
+loc s3: while true
+	when x>0 sync a goto s4;
+loc s4: while true
+	when true sync b goto s3;
+initially: s3;
+end
+
+//F6a.print;
+//F6b.print;
+
+three.add_aut(F6a);
+three.add_aut(F6b);
+//three.print;
+
+sixth:=to_ICTA(three);
+
+sixth.print;
+
+eightth:=hybrid_flavoured_timed_aut_to_timed_aut(sixth);
+
+eightth.print;
+

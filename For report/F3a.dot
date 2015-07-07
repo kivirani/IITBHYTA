@@ -1,0 +1,11 @@
+digraph F3a {
+ rankdir=LR;
+ size="8,5"
+0 [label="off\ntrue\n",color=red, style=filled];
+1 [label="dim\ntrue\n",color=red, style=filled];
+2 [label="bright\ntrue\n",color=red, style=filled];
+0 -> 1 [label="press\ntrue\nx == 0"];
+1 -> 0 [label="press\nx > 10\n"];
+1 -> 2 [label="press\nx <= 10\n"];
+2 -> 0 [label="press\ntrue\n"];
+}

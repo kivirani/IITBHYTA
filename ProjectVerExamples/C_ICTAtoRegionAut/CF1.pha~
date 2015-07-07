@@ -1,0 +1,80 @@
+timedautomaton F1a
+contr_var: x;
+synclabs: a1,b1,tau1;
+loc s0: while true
+	when true sync tau1 goto s0;
+	when true sync b1 do {x' == 0} goto s1;
+loc s1: while true
+	when true sync tau1 goto s1;
+	when x<1 sync a1 do {x' == 0} goto s2;
+loc s2: while true
+	//when x != 1 sync tau1 goto s2;
+	when x < 1 sync tau1 goto s2;
+	when x > 1 sync tau1 goto s2;
+	when x == 1 sync b1 goto s2;
+	//when x == 1 sync b2 goto s2;
+	//when x == 1 sync b3 goto s2;
+initially: s0;
+end
+
+timedautomaton F1b
+contr_var: x;
+synclabs: a1,b2,tau2;
+loc t0: while true
+	when true sync tau2 goto t0;
+	when true sync b2 do {x' == 0} goto t1;
+loc t1: while true
+	when true sync tau2 goto t1;
+	when x<1 sync a1 do {x' == 0} goto t2;
+loc t2: while true
+	//when x != 1 sync tau2 goto t2;
+	when x < 1 sync tau2 goto t2;
+	when x > 1 sync tau2 goto t2;
+	//when x == 1 sync b1 goto t2;
+	when x == 1 sync b2 goto t2;
+	//when x == 1 sync b3 goto t2;
+initially: t0;
+end
+
+timedautomaton F1c
+contr_var: x;
+synclabs: a1,b3,tau3;
+loc u0: while true
+	when true sync tau3 goto u0;
+	when true sync b3 do {x' == 0} goto u1;
+loc u1: while true
+	when true sync tau3 goto u1;
+	when x<1 sync a1 do {x' == 0} goto u2;
+loc u2: while true
+	//when x != 1 sync tau3 goto u2;
+	when x < 1 sync tau3 goto u2;
+	when x > 1 sync tau3 goto u2;
+	//when x == 1 sync b1 goto u2;
+	//when x == 1 sync b2 goto u2;
+	when x == 1 sync b3 goto u2;
+initially: u0;
+end
+
+//F1a.print;
+//F1b.print;
+//F1c.print;
+
+three.add_aut(F1a);
+three.add_aut(F1b);
+three.add_aut(F1c);
+//three.print;
+
+sixth:=to_ICTA(three);
+
+//sixth.print;
+
+eightth:=hybrid_flavoured_timed_aut_to_timed_aut(sixth);
+
+//eightth.print;
+eightth.to_dot;
+
+seventh:=to_Region_Automata(eightth);
+
+//seventh.print;
+
+

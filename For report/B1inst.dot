@@ -1,0 +1,9 @@
+digraph B1inst {
+rankdir=LR;
+size="8,5"
+0 [label="off\n-A >= -20\nA = -1",color=red, style=filled];
+1 [label="on\n-A >= -22\nA = 1",color=red, style=filled];
+0 -> 1 [label="tau\nA > 18\ntrue"];
+0 -> 0 [label="tau\nA > 19\ntrue"];
+1 -> 0 [label="tau\n-A > -19\ntrue"];
+}

@@ -1,0 +1,11 @@
+rm: cannot remove ‘abc.txt’: No such file or directory
+rm: cannot remove ‘a.out’: No such file or directory
+yacc: 4 rules never reduced
+yacc: 2 shift/reduce conflicts.
+y.tab.c: In function ‘int yyparse()’:
+y.tab.c:681:27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     yyerror("syntax error");
+                           ^
+y.tab.c:2795:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     yyerror("yacc stack overflow");
+                                  ^

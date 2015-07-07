@@ -1,0 +1,34 @@
+automaton D5
+synclabs: a,b;
+loc s0: while true
+	when true sync a goto s1;
+	when true sync b goto s2;
+loc s1: while true
+	when true sync b goto s0;
+	when true sync b goto s2;
+loc s2: while true
+	when true sync b goto s3;
+loc s3: while true
+initially: s0;
+end
+
+//D5.print;
+
+D5.to_dot;
+
+val:=true;
+myval:=s3 & val;
+myval.print;
+
+
+autinst:=D5;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+//l:=is_reachable_fb(autinst,myval);
+
+
+//l:=is_reachable_by_dfs_fb(autinst,myval);
+//l:=is_reachable_by_dfs_bk(autinst,myval);
+//l:=is_reachable_by_bfs_fb(autinst,myval);
+l:=is_reachable_by_bfs_bk(autinst,myval);
+l.print;

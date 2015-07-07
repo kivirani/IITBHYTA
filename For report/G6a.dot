@@ -1,0 +1,10 @@
+digraph G6a {
+ rankdir=LR;
+ size="8,5"
+0 [label="l0\nx >= 0x < 3\nx == 1",color=red, style=filled];
+1 [label="l1\nx > -1x < 2y > -3y < 3\nx == -1",color=red, style=filled];
+0 -> 0 [label="a\ntrue\n"];
+0 -> 1 [label="a\ntrue\n"];
+1 -> 1 [label="b\ntrue\n"];
+1 -> 0 [label="b\nx > 1\nx == 0"];
+}

@@ -1,0 +1,78 @@
+automaton one
+contr_var: x,y;
+synclabs: a,b,c;
+loc one_zero: while 2*x<4 wait { x' >= 1 & x' <= 2 & y' == 2 }
+	when y > 4 sync b goto one_one;
+loc one_one: while x <= 3 & y <= 7 wait { x' >= 2 & x' <= 4 & y' == 1}
+	when x == 0 sync a do {y' == 0} goto one_two;
+loc one_two: while x <= 7 & y >= 5 wait {x' >= 3 & x' <= 5 & y' == 1}
+	when x>4 & y > 6 sync c do {y' == 0} goto one_zero;	
+initially: one_zero & x==0 & y==0;
+end
+
+
+automaton two
+contr_var: z;
+input_var: x,y;
+synclabs: a,d,e;
+loc two_zero: while x < 3 wait {z' >= 2 & z' <= 3} 
+	when z < 4 sync a do {x' == 3} goto two_one;
+loc two_one: while 2 < x & x < 3 wait {z' >= 0 & z' <= 2}
+	when z <= 2 sync d do {z' == 0} goto two_one;
+	when z < 7 sync e do {x' == 5} goto two_zero;
+initially: two_zero & z==0;
+end
+
+
+
+
+//one.print;
+
+//three.add_aut(one);
+//three.add_aut(two);
+//three.print;
+
+//sixth:=to_ICTA(three);
+
+//sixth.print;
+
+//eightth:=hybrid_flavoured_timed_aut_to_timed_aut(sixth);
+
+//eightth.print;
+
+//seventh:=to_Region_Automata(eightth);
+
+//seventh.print;
+
+
+//fourth:=take_composition(three);
+
+//fourth.print;
+
+
+
+//threeinst:=one & two;
+//threeinst.print;
+
+
+
+//fifthinst:=threeinst;
+
+//fifthinst.print;
+
+
+val:=x<10;
+myval:=two_zero & val;
+myval.print;
+
+
+secondinst:=two;
+l:=is_reachable(secondinst,myval);
+//l:=is_reachable_bk(secondinst,myval);
+//l:=is_reachable_fb(secondinst,myval);
+l.print;
+
+
+
+//oneinst:=one;
+//oneinst.print;

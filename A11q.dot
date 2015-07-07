@@ -1,0 +1,6 @@
+digraph A11q {
+ rankdir=LR;
+ size="8,5"
+0 [label="r0\ny <= 1\n",color=red, style=filled];
+0 -> 0 [label="b\ny == 1\ny == 0"];
+}

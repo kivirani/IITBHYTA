@@ -1,0 +1,42 @@
+hybridautomaton G3a
+contr_var: z;
+input_var: x;
+synclabs: tau1;
+loc s0: while z<=1 wait {z'==1} 
+	when z==1 & x>=95 sync tau1 do {z'==0} goto s0;
+	when z==1 & x>93 & x<95 sync tau1 do {z'==0} goto s0;
+	//when z==1 & x>=96 sync tau1 do {z'==0} goto s0;
+	when z==1 & x<=93 sync tau1 do {z'==0} goto s0;
+	//when z==1 & x>=97 sync tau1 do {z'==0} goto s0;
+initially: s0 & z==0;
+end
+
+hybridautomaton G3b
+contr_var: x;
+synclabs: b,c,on,off;
+loc t1: while x==20 wait {x'==0}
+	when true sync on goto t2;
+loc t2: while x>=20 & x<=100 wait {x'==0.24}
+	when x==100 sync b goto t3;
+	when true sync off goto t4;
+loc t3: while x==100 wait {x'==0}
+	when true sync off goto t4;
+loc t4: while x>=20 & x<=100 wait {x'==-1.2} 
+	when true sync on goto t2;
+	when x==20 sync c goto t1;
+initially: t1;
+end
+
+//G3a.print;
+//G3b.print;
+
+three.add_aut(G3a);
+three.add_aut(G3b);
+//three.print;
+
+sixth:=to_ICTA(three);
+sixth.print;
+
+
+
+

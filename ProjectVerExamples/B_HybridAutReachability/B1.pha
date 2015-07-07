@@ -1,0 +1,31 @@
+hybridautomaton B1
+contr_var: x;
+synclabs: tau;
+//loc off: while x>=18 wait {x'==-1}
+loc off: while x<=20 wait {x'==-1}
+	when x>18 sync tau goto on;
+	when x>19 sync tau goto off;
+loc on: while x<=22 wait {x'==1}
+	when x<19 sync tau goto off;
+initially: off & x==20;
+end
+
+//B1.print;
+
+
+val:=x==22;
+myval:=on & val;
+myval.print;
+
+
+autinst:=B1;
+
+autinst.to_dot;
+
+//autinst.print;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+l:=is_reachable_fb(autinst,myval);
+l.print;
+
+

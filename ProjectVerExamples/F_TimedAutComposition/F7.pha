@@ -1,0 +1,31 @@
+timedautomaton F7a
+contr_var: x;
+synclabs: a,b;
+loc s0: while true
+	when x>2 sync a goto s1;
+	when x<3 sync a goto s1;
+loc s1: while true
+	when true sync b do {x'==0} goto s0;
+initially: s0;
+end
+
+timedautomaton F7b
+contr_var: y;
+synclabs: a,b;
+loc s2: while true
+	when y<6 sync a goto s3;
+loc s3: while true
+	when y<3 sync b goto s2;
+initially: s2;
+end
+
+//F7a.print;
+//F7b.print;
+
+three.add_aut(F7a);
+three.add_aut(F7b);
+//three.print;
+fourth:=take_composition(three);
+
+fourth.print;
+

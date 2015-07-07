@@ -1,0 +1,47 @@
+hybridautomaton G2a
+contr_var: x,k;
+synclabs: tau1;
+loc s1: while true
+	when k==0 sync tau1 do {x'==0} goto s2;
+loc s2: while x<=5 wait {x'==1}
+	when true sync tau1 do {k'==1 & x'==0} goto s3;
+loc s3: while true wait {x'==1}
+	//when x>=10 & k!=1 sync tau1 goto s1;
+	when x>=10 & k>1 sync tau1 goto s1;	
+	when x>=10 & k<1 sync tau1 goto s1;
+	when x>=10 & k==1 sync tau1 goto s4;
+loc s4: while true
+	when true sync tau1 do {k'==0} goto s1;
+initially: s1 & k==0;
+end
+
+hybridautomaton G2b
+contr_var: y,k;
+synclabs: tau2;
+loc A: while true
+	when k==0 sync tau2 do {y'==0} goto B;
+loc B: while y<=5 wait {y'==1.1}
+	when true sync tau2 do {k'==2 & y'==0} goto C;
+loc C: while true wait {y'==1.1}
+	//when y>=10 & k!=2 sync tau2 goto A;
+	when y>=10 & k>2 sync tau2 goto A;
+	when y>=10 & k<2 sync tau2 goto A;
+	when y>=10 & k==2 sync tau2 goto D;
+loc D: while true
+	when true sync tau2 do {k'==0} goto A;
+initially: A & k==0;
+end
+
+//G2a.print;
+//G2b.print;
+
+three.add_aut(G2a);
+three.add_aut(G2b);
+//three.print;
+
+sixth:=to_ICTA(three);
+sixth.print;
+
+
+
+

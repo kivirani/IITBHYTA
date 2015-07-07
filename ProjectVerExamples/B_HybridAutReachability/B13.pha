@@ -1,0 +1,30 @@
+hybridautomaton B13
+contr_var: x;
+synclabs: on,off,b,c;
+loc t1: while x==20 wait {x'==0}
+	when true sync on goto t2;
+loc t2: while x>=20 & x<=100 wait {x'>=3 & x'<=10}
+	when x==100 sync b goto t3;
+	when true sync off goto t4;
+loc t3: while x==100 wait {x'==0}
+	when true sync off goto t4;
+loc t4: while x>=20 & x<=100 wait {x'>=-8 & x'<=-1}
+	when x==20 sync c goto t1;
+	when true sync on goto t2;
+initially: t1;
+end
+
+
+maxiterations:=25;
+//B13.print;
+
+val:=x<10;
+myval:=t3 & val;
+myval.print;
+
+
+autinst:=B13;
+//l:=is_reachable(autinst,myval);
+//l:=is_reachable_bk(autinst,myval);
+l:=is_reachable_fb(autinst,myval);
+l.print;

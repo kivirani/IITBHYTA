@@ -1,0 +1,22 @@
+automaton Ap
+contr_var: x,y;
+synclabs: a;
+loc s0: while y >= 0 wait {y' == 1}
+	when y <= 1 sync a goto s1;
+loc s1: while y >= 0 wait {y' == 1}
+	when y >= 0 sync a do {x' == 0} goto s2;
+loc s2: while y >= 0 wait {y' == 1}
+	when y >= 0 sync a goto s2;
+initially: s0 & x==0 & y==0;
+end
+automaton Aq
+contr_var: x,y;
+synclabs: b;
+loc r0: while x >= 0 wait {x' == 1}
+	when x >= 1 sync b goto r1;
+loc r1: while y <= 1 wait {x' == 1}
+	when y <= 1 & x > 0 & x < 1 sync b do {x' == 0} goto r2;
+loc r2: while y >= 0 wait {x' == 1}
+	when x >= 0 sync b goto r2;
+initially: r0 & x==0 & y==0;
+end
